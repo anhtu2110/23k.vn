@@ -3,16 +3,6 @@
     --bg-green: #008541;
     --bg-white: #FFFFFF;
     --bg-orange: #F99D1C;
-    --bg-gray: #666666;
-}
-
-a {
-    text-decoration: none !important;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
 }
 
 html {

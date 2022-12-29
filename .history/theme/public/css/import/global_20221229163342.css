@@ -3,16 +3,6 @@
     --bg-green: #008541;
     --bg-white: #FFFFFF;
     --bg-orange: #F99D1C;
-    --bg-gray: #666666;
-}
-
-a {
-    text-decoration: none !important;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
 }
 
 html {
@@ -51,7 +41,7 @@ a.hotline {
     text-transform: uppercase;
     color: var(--bg-white);
     padding: 1rem 1rem;
-    border: 0.3rem solid var(--bg-white);
+    border: 3px solid var(--bg-white);
     border-radius: 100rem;
     margin-left: 1rem;
     overflow: hidden;
