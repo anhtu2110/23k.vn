@@ -9,20 +9,6 @@
     justify-content: flex-end;
 }
 
-#header .logo {
-    position: absolute;
-    top: 1.5rem;
-    left: 0;
-    /* z-index: 1; */
-    box-shadow: 1px 1px 10px gray;
-    border-radius: 10rem;
-}
-
-#header .logo a.logo img {
-    width: 17.5rem;
-    height: auto;
-}
-
 ul.benefit li.benefit-item {
     display: inline-block;
     font-size: 2.2rem;
@@ -37,21 +23,18 @@ ul.benefit li.benefit-item:last-child {
     padding-right: 0;
 }
 
-ul.benefit li.benefit-item::before {
+/* ul.benefit li.benefit-item::before {
+    position: relative;
     display: inline-block;
     content: '\f058';
     font-family: "Font Awesome 6 Free";
     -webkit-font-smoothing: antialiased;
-    font-weight: normal;
-    color: #F99D1C;
-    padding-inline: 1rem;
-}
-
-/* ul.benefit li.benefit-item i {
+} */
+ul.benefit li.benefit-item i {
     display: inline-block;
     padding-inline: 1rem;
     color: #F99D1C;
-} */
+}
 
 /* END HEADER TOP  */
 .header-bottom {
@@ -82,13 +65,21 @@ ul.benefit li.benefit-item::before {
     font-family: "UTM AvoBold";
     text-transform: uppercase;
     color: var(--bg-white);
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
     border: 3px solid var(--bg-white);
     border-radius: 100rem;
-    margin-left: 1rem;
-    overflow: hidden;
 }
 
-.header-bottom a.hotline span.icon-phone i {
-    color: var(--bg-green);
+#header .logo {
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    z-index: 1;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 10rem;
+}
+
+#header .logo a.logo img {
+    width: 17.5rem;
+    height: auto;
 }

@@ -38,20 +38,21 @@ ul.benefit li.benefit-item:last-child {
 }
 
 ul.benefit li.benefit-item::before {
+    position: relative;
     display: inline-block;
     content: '\f058';
     font-family: "Font Awesome 6 Free";
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
     color: #F99D1C;
-    padding-inline: 1rem;
+
 }
 
-/* ul.benefit li.benefit-item i {
+ul.benefit li.benefit-item i {
     display: inline-block;
     padding-inline: 1rem;
     color: #F99D1C;
-} */
+}
 
 /* END HEADER TOP  */
 .header-bottom {
@@ -87,8 +88,4 @@ ul.benefit li.benefit-item::before {
     border-radius: 100rem;
     margin-left: 1rem;
     overflow: hidden;
-}
-
-.header-bottom a.hotline span.icon-phone i {
-    color: var(--bg-green);
 }

@@ -38,6 +38,7 @@ ul.benefit li.benefit-item:last-child {
 }
 
 ul.benefit li.benefit-item::before {
+    /* position: relative; */
     display: inline-block;
     content: '\f058';
     font-family: "Font Awesome 6 Free";
@@ -87,8 +88,4 @@ ul.benefit li.benefit-item::before {
     border-radius: 100rem;
     margin-left: 1rem;
     overflow: hidden;
-}
-
-.header-bottom a.hotline span.icon-phone i {
-    color: var(--bg-green);
 }

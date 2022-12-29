@@ -13,6 +13,12 @@
     padding-block: 2rem;
 }
 
+#advantages p.advantage i {
+    display: inline-block;
+    padding-inline: 1rem;
+    /* color: var(--bg-orange); */
+}
+
 #advantages p.advantage::before {
     display: inline-block;
     content: '\f058';
