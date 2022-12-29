@@ -7,17 +7,11 @@
 }
 
 a {
-    text-decoration: none !important;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
+    text-decoration: none;
 }
 
 html {
-    /* font-size: 62.5%; */
-    font-size: 5.333px;
+    font-size: 62.5%;
 }
 
 body {

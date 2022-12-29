@@ -4,9 +4,3 @@
         /* font-size: 8px; */
     }
 }
-
-@media (max-width: 767px) {
-    html {
-        font-size: 10px;
-    }
-}
