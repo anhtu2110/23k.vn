@@ -48,10 +48,6 @@
     color: var(--bg-gray);
 }
 
-.footer-info-contact .wp-info-contact {
-    width: fit-content;
-}
-
 .footer-info-contact p {
     padding-block: 1rem;
     border-bottom: 0.2rem solid var(--bg-green);

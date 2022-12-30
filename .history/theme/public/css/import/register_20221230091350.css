@@ -52,16 +52,6 @@
 }
 
 /* END WP-INFO-REG  */
-#wp-note {
-    margin-block: 3rem;
-}
-
-#wp-note p {
-    margin-block: 0.5rem;
-    color: #FF0000;
-}
-
-/* END WP-NOTE  */
 #wp-content {
     margin-bottom: 8rem;
 }

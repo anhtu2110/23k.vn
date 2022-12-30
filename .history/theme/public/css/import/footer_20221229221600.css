@@ -35,21 +35,16 @@
 
 #footer #footer-bottom a.logo {
     display: block;
-    width: 100%;
+    width: 50%;
 }
 
 #footer #footer-bottom a.logo img {
-    width: 100%;
-    height: auto;
+    width: 50%;
 }
 
 .footer-info-contact {
     font-size: 2.6rem;
     color: var(--bg-gray);
-}
-
-.footer-info-contact .wp-info-contact {
-    width: fit-content;
 }
 
 .footer-info-contact p {
