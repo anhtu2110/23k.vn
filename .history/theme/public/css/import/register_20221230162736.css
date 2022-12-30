@@ -4,39 +4,28 @@
     padding-block: 5rem;
 }
 
-#wp-info-reg #wp-form-reg .form-reg-title {
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--bg-green);
-}
-
 #wp-info-reg #wp-form-reg .form-reg-title p:first-child {
     font-size: 1.6rem;
     font-family: "UTM Avo";
     text-transform: uppercase;
     color: #333333;
-    margin-block: 1rem;
 }
 
 #wp-info-reg #wp-form-reg .form-reg-title p.condition-reg {
     font-size: 1.8rem;
     font-family: "UTM AvoBold";
-    margin-block: 1rem;
 }
 
 #wp-info-reg #wp-form-reg .form-reg-title p.condition-reg span {
     color: var(--bg-green);
 }
 
-#wp-info-reg #wp-form-reg .form-reg-content {
-    margin-top: 2.5rem;
-}
-
 #wp-info-reg #wp-form-reg .form-reg-content .form-group {
-    margin-block: 1rem;
+    margin-block: 3rem;
 }
 
 #wp-info-reg #wp-form-reg .form-reg-content label {
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     font-family: "UTM AvoBold";
     margin-block: 0.5rem;
 }
@@ -44,9 +33,8 @@
 #wp-info-reg #wp-form-reg .form-reg-content input {
     display: inline-block;
     border-radius: 1rem;
-    font-size: 1.4rem;
-    height: 4rem;
-    padding-inline: 1.5rem;
+    font-size: 2.2rem;
+    padding: 1.5rem 1rem;
 }
 
 .wp-btn-reg {
@@ -55,12 +43,12 @@
 
 .wp-btn-reg button.btn_reg {
     background-color: var(--bg-green);
-    font-size: 1.6rem;
+    font-size: 3.3rem;
     color: var(--bg-white);
     font-family: "UTM AvoBold";
     border-radius: 1.3rem;
     padding: 0.5rem 1rem;
-    width: 35%;
+    width: 44.5%;
 }
 
 /* END WP-INFO-REG  */
@@ -87,7 +75,7 @@
 }
 
 #advantages p.advantage {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #999999;
     font-family: 'UTM AvoBold';
     padding-block: 2rem;
@@ -131,7 +119,7 @@
 }
 
 #should-choose ul.list-reason li.reason-item p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: "UTM Avo";
     color: #808080;
 }

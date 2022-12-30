@@ -25,7 +25,8 @@ body {
 }
 
 .head-box {
-    padding-block: 1rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
     border-bottom: 1px solid var(--bg-green);
 }
 

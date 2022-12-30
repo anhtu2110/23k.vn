@@ -2,7 +2,7 @@ $(document).ready(function () {
     $(".btn-scrolltop").css({
         'display': 'none',
     });
-    $(window).scroll(function () {
+    $(Window).scroll(function () {
         if ($(window).scrollTop() < 350) {
             $(".btn-scrolltop").css({
                 'display': 'none',
@@ -14,7 +14,6 @@ $(document).ready(function () {
         }
     });
     $(".btn-scrolltop").click(function () {
-        // $(window).scroll(function () {
-        $(window).scrollTop(0);
+        $(window).scrollTop() == 0;
     });
 });

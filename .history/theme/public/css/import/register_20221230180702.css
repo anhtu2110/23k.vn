@@ -4,11 +4,6 @@
     padding-block: 5rem;
 }
 
-#wp-info-reg #wp-form-reg .form-reg-title {
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--bg-green);
-}
-
 #wp-info-reg #wp-form-reg .form-reg-title p:first-child {
     font-size: 1.6rem;
     font-family: "UTM Avo";
@@ -27,10 +22,6 @@
     color: var(--bg-green);
 }
 
-#wp-info-reg #wp-form-reg .form-reg-content {
-    margin-top: 2.5rem;
-}
-
 #wp-info-reg #wp-form-reg .form-reg-content .form-group {
     margin-block: 1rem;
 }
@@ -45,8 +36,7 @@
     display: inline-block;
     border-radius: 1rem;
     font-size: 1.4rem;
-    height: 4rem;
-    padding-inline: 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
 .wp-btn-reg {
@@ -131,7 +121,7 @@
 }
 
 #should-choose ul.list-reason li.reason-item p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: "UTM Avo";
     color: #808080;
 }

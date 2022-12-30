@@ -14,7 +14,8 @@ $(document).ready(function () {
         }
     });
     $(".btn-scrolltop").click(function () {
-        // $(window).scroll(function () {
-        $(window).scrollTop(0);
+        $(window).scroll(function () {
+            $(window).scrollTop() == 0;
+        })
     });
 });

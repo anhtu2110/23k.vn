@@ -4,11 +4,6 @@
     padding-block: 5rem;
 }
 
-#wp-info-reg #wp-form-reg .form-reg-title {
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--bg-green);
-}
-
 #wp-info-reg #wp-form-reg .form-reg-title p:first-child {
     font-size: 1.6rem;
     font-family: "UTM Avo";
@@ -25,10 +20,6 @@
 
 #wp-info-reg #wp-form-reg .form-reg-title p.condition-reg span {
     color: var(--bg-green);
-}
-
-#wp-info-reg #wp-form-reg .form-reg-content {
-    margin-top: 2.5rem;
 }
 
 #wp-info-reg #wp-form-reg .form-reg-content .form-group {

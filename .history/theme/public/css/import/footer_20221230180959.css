@@ -103,10 +103,6 @@ ul.list-info-contact li a {
     color: var(--bg-gray);
 }
 
-ul.list-info-contact li:hover a {
-    color: var(--bg-orange);
-}
-
 ul.list-info-contact i {
     display: inline-block;
     width: 3rem;

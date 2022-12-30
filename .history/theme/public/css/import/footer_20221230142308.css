@@ -20,12 +20,9 @@ a.social-icon img {
 
 /* END SOCIAL-ICON  */
 .btn-scrolltop {
-    position: fixed;
+    position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-    bottom: 1rem;
     z-index: 1000;
-    cursor: pointer;
 }
 
 .btn-scrolltop img {
@@ -71,7 +68,7 @@ a.social-icon img {
 
 #footer #footer-bottom a.logo {
     display: block;
-    width: 80%;
+    width: 100%;
 }
 
 #footer #footer-bottom a.logo img {
@@ -80,7 +77,7 @@ a.social-icon img {
 }
 
 .footer-info-contact {
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     color: var(--bg-gray);
 }
 
@@ -101,10 +98,6 @@ ul.list-info-contact {
 
 ul.list-info-contact li a {
     color: var(--bg-gray);
-}
-
-ul.list-info-contact li:hover a {
-    color: var(--bg-orange);
 }
 
 ul.list-info-contact i {
