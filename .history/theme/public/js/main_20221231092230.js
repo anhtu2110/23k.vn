@@ -1,5 +1,6 @@
 $(document).ready(function () {
     var height_header = $("#header").height();
+    alert(height_header);
     $("#wp-header").height(height_header);
     $(".btn-scrolltop").css({
         'display': 'none',

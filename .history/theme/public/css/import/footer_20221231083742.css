@@ -42,7 +42,6 @@ a.social-icon img {
 #footer #footer-top .footer-top-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 #footer #footer-top .footer-top-content span.footer-thank {
@@ -54,8 +53,7 @@ a.social-icon img {
 }
 
 #footer #footer-top .footer-top-content a.hotline {
-    color: var(--bg-white);
-    border: 0.2rem solid var(--bg-white);
+    /* border: none; */
     background-color: var(--bg-orange);
     margin-right: -1.5rem;
 }
@@ -113,9 +111,4 @@ ul.list-info-contact i {
     display: inline-block;
     width: 3rem;
     height: auto;
-    color: var(--bg-green);
-}
-
-#footer-bottom .row {
-    align-items: center;
 }

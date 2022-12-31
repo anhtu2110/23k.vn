@@ -8,7 +8,7 @@
 
 .header-top {
     background-color: var(--bg-green);
-    border-bottom: 0.3rem solid var(--bg-orange);
+    border-bottom: 1.2rem solid var(--bg-white);
 }
 
 .header-top .container {
@@ -17,6 +17,17 @@
     justify-content: flex-end;
 }
 
+#header .logo {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    border-radius: 10rem;
+}
+
+#header .logo a.logo img {
+    width: 9.12vw;
+    height: auto;
+}
 
 ul.benefit li.benefit-item {
     display: inline-block;
@@ -50,45 +61,24 @@ ul.benefit li.benefit-item::before {
 
 /* END HEADER TOP  */
 .header-bottom {
-    background-color: var(--bg-white);
-    box-shadow: 0px 2px 5px rgb(0 0 0 / 5%);
-    padding-block: 0.5rem;
-}
-
-.header-bottom .container .row {
-    justify-content: space-between;
+    background-color: var(--bg-orange);
+    display: flex;
     align-items: center;
+    padding-block: 1rem;
 }
 
-.header-bottom .container p.w-content {
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.header-bottom .container .row .col-md-4 {
-    text-align: right;
-    padding-right: 0;
-}
-
-.header-bottom a.logo {
-    max-width: 100%;
-    height: auto;
-}
-
-.header-bottom a.logo img {
-    width: 9rem;
-    height: auto;
+.header-bottom .container {
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    justify-content: right;
 }
 
 .header-bottom .content {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-family: 'UTM AvoBold';
     color: var(--bg-green);
-    text-shadow: 1px 1px var(--bg-orange);
+    text-shadow: 1px 1px var(--bg-white);
+    /* flex-basis: 50%; */
     width: fit-content;
-}
-
-.header-bottom a.hotline {
-    color: var(--bg-green);
-    border: 0.2rem solid var(--bg-green);
 }

@@ -8,7 +8,7 @@
 
 .header-top {
     background-color: var(--bg-green);
-    border-bottom: 0.3rem solid var(--bg-orange);
+    border-bottom: 1.2rem solid var(--bg-white);
 }
 
 .header-top .container {
@@ -51,7 +51,6 @@ ul.benefit li.benefit-item::before {
 /* END HEADER TOP  */
 .header-bottom {
     background-color: var(--bg-white);
-    box-shadow: 0px 2px 5px rgb(0 0 0 / 5%);
     padding-block: 0.5rem;
 }
 
@@ -60,35 +59,27 @@ ul.benefit li.benefit-item::before {
     align-items: center;
 }
 
-.header-bottom .container p.w-content {
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.header-bottom .container .row .col-md-4 {
-    text-align: right;
-    padding-right: 0;
-}
-
 .header-bottom a.logo {
     max-width: 100%;
     height: auto;
 }
 
 .header-bottom a.logo img {
-    width: 9rem;
+    width: 8rem;
     height: auto;
 }
 
 .header-bottom .content {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-family: 'UTM AvoBold';
     color: var(--bg-green);
-    text-shadow: 1px 1px var(--bg-orange);
+    text-shadow: 1px 1px var(--bg-white);
+    /* flex-basis: 50%; */
     width: fit-content;
 }
 
 .header-bottom a.hotline {
+    font-family: "UTM Avo";
     color: var(--bg-green);
-    border: 0.2rem solid var(--bg-green);
+    border: 0.3rem solid var(--bg-green);
 }

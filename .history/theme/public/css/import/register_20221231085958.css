@@ -109,12 +109,9 @@
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    padding-block: 2rem;
 }
-
 
 #should-choose ul.list-reason li.reason-item {
     text-align: center;
@@ -123,7 +120,7 @@
 #should-choose ul.list-reason li a {
     display: block;
     width: 100%;
-    height: 8rem;
+    height: 16rem;
 }
 
 #should-choose ul.list-reason li a img {
@@ -133,7 +130,7 @@
 }
 
 #should-choose ul.list-reason li.reason-item p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-family: "UTM Avo";
     color: #808080;
 }

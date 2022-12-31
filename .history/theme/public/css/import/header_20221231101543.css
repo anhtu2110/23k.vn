@@ -60,11 +60,6 @@ ul.benefit li.benefit-item::before {
     align-items: center;
 }
 
-.header-bottom .container p.w-content {
-    margin-bottom: 0;
-    text-align: center;
-}
-
 .header-bottom .container .row .col-md-4 {
     text-align: right;
     padding-right: 0;
@@ -76,7 +71,7 @@ ul.benefit li.benefit-item::before {
 }
 
 .header-bottom a.logo img {
-    width: 9rem;
+    width: 8rem;
     height: auto;
 }
 
