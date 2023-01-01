@@ -19,16 +19,16 @@ $(document).ready(function () {
         // $(window).scroll(function () {
         $(window).scrollTop(0);
     });
-    $(".proof_documents").css({
+    $("#proof_documents").css({
         'display': 'none',
     });
     $("input#yes").click(function () {
-        $(".proof_documents").css({
+        $("#proof_documents").css({
             'display': 'none',
         })
     });
     $("input#no").click(function () {
-        $(".proof_documents").css({
+        $("#proof_documents").css({
             'display': 'block',
         })
     });

@@ -106,11 +106,10 @@
 }
 
 #advantages p.advantage {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #999999;
     font-family: 'UTM AvoBold';
     padding-block: 2rem;
-    margin-bottom: 0px;
 }
 
 #advantages p.advantage::before {
@@ -159,3 +158,6 @@
 }
 
 /* END SHOULD-CHOOSE  */
+#proof_documents {
+    display: none;
+}

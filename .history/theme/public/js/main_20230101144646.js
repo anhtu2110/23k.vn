@@ -23,12 +23,12 @@ $(document).ready(function () {
         'display': 'none',
     });
     $("input#yes").click(function () {
-        $(".proof_documents").css({
+        $("#proof_documents").css({
             'display': 'none',
         })
     });
     $("input#no").click(function () {
-        $(".proof_documents").css({
+        $("#proof_documents").css({
             'display': 'block',
         })
     });

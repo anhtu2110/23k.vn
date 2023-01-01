@@ -41,10 +41,6 @@
     margin-block: 0.5rem;
 }
 
-#wp-info-reg #wp-form-reg .form-reg-content label.font-weight-normal {
-    font-family: "UTM Avo";
-}
-
 #wp-info-reg #wp-form-reg .form-reg-content input {
     display: inline-block;
     border-radius: 1rem;
@@ -53,19 +49,9 @@
     padding-inline: 1.5rem;
 }
 
-#wp-info-reg #wp-form-reg .form-reg-content #exhibit-reg .row {
-    align-items: center;
-}
-
 #wp-info-reg #wp-form-reg .form-reg-content #exhibit-reg label {
     font-family: "UTM Avo";
     padding-block: 0.8rem;
-    margin-block: 0;
-    margin-left: 0.5rem;
-}
-
-#wp-info-reg #wp-form-reg .form-reg-content #exhibit-reg input:checked+label {
-    color: var(--bg-green);
 }
 
 .wp-btn-reg {
@@ -106,11 +92,10 @@
 }
 
 #advantages p.advantage {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #999999;
     font-family: 'UTM AvoBold';
     padding-block: 2rem;
-    margin-bottom: 0px;
 }
 
 #advantages p.advantage::before {
