@@ -1,6 +1,4 @@
 $(document).ready(function () {
-    var height_header = $("#header").height();
-    $("#wp-header").height(height_header);
     $(window).resize(function () {
         var height_header = $("#header").height();
         $("#wp-header").height(height_header);
