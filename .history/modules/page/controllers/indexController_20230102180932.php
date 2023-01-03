@@ -56,6 +56,3 @@ function regAction()
     }
     load_view('reg');
 }
-function check_regAction()
-{
-}

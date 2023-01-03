@@ -48,7 +48,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-fanpage col-lg-4 col-12 mt-3 mt-md-0">
+                <div class="footer-fanpage col-lg-4 col-12">
                     <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100089082490261" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
                         <blockquote cite="https://www.facebook.com/profile.php?id=100089082490261" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100089082490261">Hà Nội Credit -
                                 Tài Chính 23K</a></blockquote>
@@ -66,7 +66,6 @@
 <script src="public/js/jquery-3.6.1.min.js"></script>
 <script src="public/js/bootstrap/bootstrap.min.js"></script>
 <script src="public/js/main.js"></script>
-<script src="public/js/ajax-validation-form.js"></script>
 </body>
 
 </html>

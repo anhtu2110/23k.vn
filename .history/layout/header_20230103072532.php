@@ -11,9 +11,16 @@
     <link rel="stylesheet" href="public/reset.css" type="text/css" />
     <link rel="stylesheet" href="public/css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
     <link rel="stylesheet" href="public/style.css" type="text/css" />
     <link rel="stylesheet" href="public/responsive.css" type="text/css" />
     <title>23K</title>
+
+    <script src="public/js/jquery-3.6.1.min.js"></script>
+    <script src="public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="public/js/main.js"></script>
 </head>
 
 <body>

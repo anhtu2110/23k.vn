@@ -23,16 +23,16 @@ $(document).ready(function () {
         // $(window).scroll(function () {
         $(window).scrollTop(0);
     });
-    $(".proof").css({
+    $(".proof_documents").css({
         'display': 'none',
     });
     $("input#yes").click(function () {
-        $(".proof").css({
+        $(".proof_documents").css({
             'display': 'none',
         })
     });
     $("input#no").click(function () {
-        $(".proof").css({
+        $(".proof_documents").css({
             'display': 'block',
         })
     });

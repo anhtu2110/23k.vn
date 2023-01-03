@@ -21,7 +21,7 @@ function regAction()
         if (empty($_POST['number_phone'])) {
             $error['number_phone'] = '*Vui lòng nhập số điện thoại';
         } else {
-            if (is_num_phone($_POST['number_phone'])) {
+            if (is_username($_POST['number_phone'])) {
                 $number_phone = $_POST['number_phone'];
             } else {
                 $error['number_phone'] = '*Số điện thoại không đúng định dạng.';
@@ -55,7 +55,4 @@ function regAction()
         }
     }
     load_view('reg');
-}
-function check_regAction()
-{
 }

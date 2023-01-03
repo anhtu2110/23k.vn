@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="public/style.css" type="text/css" />
     <link rel="stylesheet" href="public/responsive.css" type="text/css" />
     <title>23K</title>
+
+    <script src="public/js/jquery-3.6.1.min.js"></script>
+    <script src="public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="public/js/main.js"></script>
 </head>
 
 <body>

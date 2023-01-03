@@ -25,6 +25,7 @@ function regAction()
                 $number_phone = $_POST['number_phone'];
             } else {
                 $error['number_phone'] = '*Số điện thoại không đúng định dạng.';
+                return false;
             }
         }
         //Kiểm tra số điện thoại
@@ -55,7 +56,4 @@ function regAction()
         }
     }
     load_view('reg');
-}
-function check_regAction()
-{
 }
