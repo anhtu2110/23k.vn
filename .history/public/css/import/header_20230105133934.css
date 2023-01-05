@@ -81,14 +81,14 @@ ul.benefit li.benefit-item::before {
 }
 
 .header-bottom .content {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: 'UTM AvoBold';
-    color: var(--bg-green);
-    text-shadow: 1px 1px var(--bg-white);
+    color: var(--bg-orange);
+    text-shadow: 1px 1px var(--bg-green);
     width: fit-content;
 }
 
 .header-bottom a.hotline {
-    color: var(--bg-white);
-    border: 0.2rem solid var(--bg-white);
+    color: var(--bg-green);
+    border: 0.2rem solid var(--bg-green);
 }
