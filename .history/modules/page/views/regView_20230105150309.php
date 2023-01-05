@@ -300,9 +300,9 @@ get_header();
                 <div class="col-6 col-md-4 col-xl-2">
                     <li class="reason-item">
                         <a href="#wp-info-reg"><img src="./public/images/niemtin.png" alt=""></a>
-                        <p class="m-0 p-0">Trao giá trị
-                        <p class="m-0 p-0">Nhận niềm tin</p>
-                        </p>
+                        <p>Trao giá trị
+                            Nhận niềm tin
+                            Uy tín toàn quốc</p>
                     </li>
                 </div>
             </div>
@@ -310,7 +310,7 @@ get_header();
     </div>
 </div>
 <div class="img-assistant">
-    <img src="./public/images/assistant.png" alt="">
+    <img src="./pulic/images/assistant.png" alt="">
 </div>
 <?php
 get_footer();

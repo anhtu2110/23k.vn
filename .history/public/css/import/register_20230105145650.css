@@ -182,13 +182,3 @@
 }
 
 /* END SHOULD-CHOOSE  */
-.img-assistant {
-    position: absolute;
-    right: 3.28vw;
-    bottom: 0;
-}
-
-.img-assistant img {
-    width: 13.15vw;
-    height: auto;
-}

@@ -300,8 +300,9 @@ get_header();
                 <div class="col-6 col-md-4 col-xl-2">
                     <li class="reason-item">
                         <a href="#wp-info-reg"><img src="./public/images/niemtin.png" alt=""></a>
-                        <p class="m-0 p-0">Trao giá trị
-                        <p class="m-0 p-0">Nhận niềm tin</p>
+                        <p>Trao giá trị
+                        <p>Nhận niềm tin</p>
+                        <p>Uy tín toàn quốc</p>
                         </p>
                     </li>
                 </div>

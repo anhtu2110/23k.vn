@@ -300,17 +300,12 @@ get_header();
                 <div class="col-6 col-md-4 col-xl-2">
                     <li class="reason-item">
                         <a href="#wp-info-reg"><img src="./public/images/niemtin.png" alt=""></a>
-                        <p class="m-0 p-0">Trao giá trị
-                        <p class="m-0 p-0">Nhận niềm tin</p>
-                        </p>
+                        <p>Thủ tục đơn giản chỉ cần CCCD & sổ hộ khẩu Hà Nội</p>
                     </li>
                 </div>
             </div>
         </ul>
     </div>
-</div>
-<div class="img-assistant">
-    <img src="./public/images/assistant.png" alt="">
 </div>
 <?php
 get_footer();

@@ -12,22 +12,25 @@ get_header();
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="2500">
                 <a href="">
-                    <img class="desktop" src="./public/images/20220511164418256-1920 x 470.jpg" alt="">
+                    <img class="desktop" src="./public/images/banner.png" alt="">
                 </a>
             </div>
             <div class="carousel-item" data-interval="2500">
                 <a href="">
-                    <img class="desktop" src="./public/images/20221012100205330-f88 vay tiền destop.png" alt="">
+                    <!-- <img class="desktop" src="./public/images/20221012100205330-f88 vay tiền destop.png" alt=""> -->
+                    <img class="desktop" src="./public/images/banner.png" alt="">
                 </a>
             </div>
             <div class="carousel-item" data-interval="2500">
                 <a href="">
-                    <img class="desktop" src="./public/images/20221118174037871-destop wc vay tiền tại f88.jpg" alt="">
+                    <!-- <img class="desktop" src="./public/images/20221118174037871-destop wc vay tiền tại f88.jpg" alt=""> -->
+                    <img class="desktop" src="./public/images/banner.png" alt="">
                 </a>
             </div>
             <div class="carousel-item" data-interval="2500">
                 <a href="">
-                    <img class="desktop" src="./public/images/slider_4.jpg" alt="">
+                    <!-- <img class="desktop" src="./public/images/slider_4.jpg" alt=""> -->
+                    <img class="desktop" src="./public/images/banner.png" alt="">
                 </a>
             </div>
         </div>
@@ -299,18 +302,13 @@ get_header();
                 </div>
                 <div class="col-6 col-md-4 col-xl-2">
                     <li class="reason-item">
-                        <a href="#wp-info-reg"><img src="./public/images/niemtin.png" alt=""></a>
-                        <p class="m-0 p-0">Trao giá trị
-                        <p class="m-0 p-0">Nhận niềm tin</p>
-                        </p>
+                        <a href="#wp-info-reg"><img src="./public/images/thu_tuc.png" alt=""></a>
+                        <p>Thủ tục đơn giản chỉ cần CCCD & sổ hộ khẩu Hà Nội</p>
                     </li>
                 </div>
             </div>
         </ul>
     </div>
-</div>
-<div class="img-assistant">
-    <img src="./public/images/assistant.png" alt="">
 </div>
 <?php
 get_footer();

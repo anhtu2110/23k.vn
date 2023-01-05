@@ -302,6 +302,7 @@ get_header();
                         <a href="#wp-info-reg"><img src="./public/images/niemtin.png" alt=""></a>
                         <p class="m-0 p-0">Trao giá trị
                         <p class="m-0 p-0">Nhận niềm tin</p>
+                        <p class="m-0 p-0">Uy tín toàn quốc</p>
                         </p>
                     </li>
                 </div>

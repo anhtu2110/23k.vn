@@ -23,13 +23,6 @@
     <div id="wrapper">
         <div id="wp-header">
             <div id="header">
-                <div class="container">
-                    <div class="logo">
-                        <a href="" class="logo">
-                            <img src="./public/images/LOGO.png" alt="">
-                        </a>
-                    </div>
-                </div>
                 <div class="header-top">
                     <div class="container">
                         <ul class="benefit">
@@ -42,12 +35,15 @@
                 <div class="header-bottom">
                     <div class="container d-flex align-items-center justify-content-between">
                         <!-- <div class="row"> -->
-                        <div class="col-md-2">
-                            <!-- <div class="logo">
+                        <!-- <div class="col-md-2">
+                            <div class="logo">
                                 <a href="" class="logo">
                                     <img src="./public/images/LOGO.png" alt="">
                                 </a>
-                            </div> -->
+                            </div>
+                        </div> -->
+                        <div class="col-md-2">
+
                         </div>
                         <div class="col-md-6">
                             <p class="w-content"><span class="content text-uppercase">Hỗ trợ khách vay hộ khẩu hà

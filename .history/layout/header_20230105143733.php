@@ -24,11 +24,11 @@
         <div id="wp-header">
             <div id="header">
                 <div class="container">
-                    <div class="logo">
+                    <!-- <div class="logo">
                         <a href="" class="logo">
                             <img src="./public/images/LOGO.png" alt="">
                         </a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="header-top">
                     <div class="container">
