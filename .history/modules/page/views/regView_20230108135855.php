@@ -369,7 +369,7 @@ get_header();
                         </div>
                         <!-- END MODAL-BODY  -->
                         <div class="modal-footer">
-                            <button class="btn bg-blue text-white f-16" data-dismiss="modal">
+                            <button class="btn bg-blue f-16" data-dismiss="modal">
                                 Đóng
                             </button>
                         </div>

@@ -216,7 +216,7 @@ function send_info_customerAction()
         'proof_document' => $proof_document,
         'number_loan' => $number_loan,
         'list_exhibit' => $list_exhibit,
-        'time_reg' => $current,
+        // 'time_reg' => ,
     );
     $database = new DB;
     $database->insert($table, $data);

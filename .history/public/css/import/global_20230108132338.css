@@ -5,7 +5,6 @@
     --bg-orange: #F99D1C;
     --bg-gray: #666666;
     --bg-red: #eb2f06;
-    --bg-blue: #45aaf2;
 }
 
 a {
@@ -32,14 +31,6 @@ ul {
 
 .color-orange {
     color: var(--bg-orange);
-}
-
-.color-blue {
-    color: var(--bg-blue);
-}
-
-.bg-blue {
-    background-color: var(--bg-blue);
 }
 
 .bg-green {

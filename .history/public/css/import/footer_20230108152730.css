@@ -125,10 +125,13 @@ ul.list-info-contact i {
         justify-content: center;
     }
 
+    #footer #footer-top .footer-top-content span.footer-than {
+        font-size: 1.6rem;
+    }
 }
 
 @media screen and (max-width: 767px) {
-    #footer #footer-top .footer-top-content span.footer-thank {
+    #footer #footer-top .footer-top-content span.footer-than {
         font-size: 1.2rem;
     }
 }

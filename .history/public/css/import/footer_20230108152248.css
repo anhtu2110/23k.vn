@@ -121,14 +121,11 @@ ul.list-info-contact i {
 }
 
 @media screen and (max-width: 767px) {
-    #footer #footer-top .footer-top-content {
+    #footer #footer-top .footer-top-content span.footer-than {
         justify-content: center;
     }
 
-}
-
-@media screen and (max-width: 767px) {
-    #footer #footer-top .footer-top-content span.footer-thank {
-        font-size: 1.2rem;
+    #footer #footer-top .footer-top-content span.footer-than {
+        text-align: center;
     }
 }

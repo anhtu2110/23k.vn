@@ -19,5 +19,5 @@ $db = array(
     'hostname' => 'localhost',
     'username' => 'root',
     'password' => '',
-    'database' => '23k',
+    'database' => '23K',
 );

@@ -16,7 +16,7 @@
             <!-- <div class="row"> -->
             <div class="footer-top-content col-12">
                 <span class="footer-thank">Trân trọng cảm ơn quý khách !</span>
-                <a href="tel:0868300516" class="hotline hotline-footer d-none d-md-block text-decoration-none">
+                <a href="tel:0868300516" class="hotline hotline-footer text-decoration-none">
                     <span class="icon-phone"><i class="fa-solid fa-phone-volume animation-phone"></i></span>
                     <span>086.830.0516</span>
                 </a>

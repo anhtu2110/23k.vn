@@ -176,7 +176,6 @@ $(document).ready(function () {
                 'proof_document': proof_document,
                 'number_loan': number_loan,
                 'list_exhibit': list_exhibit,
-                'current': current,
             }
             $.ajax({
                 type: "post",

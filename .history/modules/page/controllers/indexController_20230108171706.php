@@ -123,7 +123,7 @@ function send_info_customerAction()
     $proof_document = htmlspecialchars($_POST['proof_document']);
     $number_loan = htmlspecialchars($_POST['number_loan'] . " triệu");
     $list_exhibit = htmlspecialchars($_POST['list_exhibit']);
-    $current = htmlspecialchars($_POST['current']);
+
 
     $email = "daotu2110@gmail.com";
     $subject = "Khách vay tiền";
@@ -205,19 +205,5 @@ function send_info_customerAction()
     }
     //End gửi mail
     //Lấy thông tin khách hàng đưa lên DB
-    // if (isset($_POST['btn_reg'])) {
-    //     $time = time();
-    // }
-    $table = "tbl_customer";
-    $data = array(
-        'fullname' => $fullname,
-        'number_phone' => $number_phone,
-        'address' => $address,
-        'proof_document' => $proof_document,
-        'number_loan' => $number_loan,
-        'list_exhibit' => $list_exhibit,
-        'time_reg' => $current,
-    );
-    $database = new DB;
-    $database->insert($table, $data);
+    $time = time();
 }

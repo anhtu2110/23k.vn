@@ -119,16 +119,3 @@ ul.list-info-contact i {
 #footer-bottom .row {
     align-items: center;
 }
-
-@media screen and (max-width: 767px) {
-    #footer #footer-top .footer-top-content {
-        justify-content: center;
-    }
-
-}
-
-@media screen and (max-width: 767px) {
-    #footer #footer-top .footer-top-content span.footer-thank {
-        font-size: 1.2rem;
-    }
-}

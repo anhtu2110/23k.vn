@@ -16,7 +16,7 @@
             <!-- <div class="row"> -->
             <div class="footer-top-content col-12">
                 <span class="footer-thank">Trân trọng cảm ơn quý khách !</span>
-                <a href="tel:0868300516" class="hotline hotline-footer d-none d-md-block text-decoration-none">
+                <a href="tel:0868300516" class="hotline hotline-footer text-decoration-none">
                     <span class="icon-phone"><i class="fa-solid fa-phone-volume animation-phone"></i></span>
                     <span>086.830.0516</span>
                 </a>
@@ -28,12 +28,12 @@
     <div id="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="footer-logo col-md-3 col-lg-2 col-4 col-sm-3">
+                <div class="footer-logo col-md-2 col-3">
                     <a href="" class="logo">
                         <img src="./public/images/footer_logo.png" alt="">
                     </a>
                 </div>
-                <div class="footer-info-contact col-md-7 col-12 col-sm-9 col-lg-4">
+                <div class="footer-info-contact col-md-6 col-9 col-lg-4">
                     <div class="wp-info-contact">
                         <p>Thông tin liên hệ</p>
                         <ul class="list-info-contact">
@@ -48,7 +48,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-fanpage col-lg-6 col-12 col-md-12 mt-5 mt-lg-0 text-left text-lg-center">
+                <div class="footer-fanpage col-lg-6 col-12 mt-3 mt-md-0 text-center">
                     <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100089082490261" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
                         <blockquote cite="https://www.facebook.com/profile.php?id=100089082490261" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100089082490261">Hà Nội Credit -
                                 Tài Chính 23K</a></blockquote>

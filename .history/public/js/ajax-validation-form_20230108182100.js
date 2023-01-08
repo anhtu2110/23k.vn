@@ -155,7 +155,7 @@ $(document).ready(function () {
                 proof_document = $("input#proof_document").val();
             }
             var today = new Date();
-            var current = today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear() + ' ' + today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
+            var current = today.getDate() + '-' + today.getMonth() + '-' + today.getFullYear() + ' ' + today.getHours + ':' + today.getMinutes + ':' + today.getSeconds();
             alert(current);
             var number_loan = $("#number_loan").val();
             var exhibit = document.getElementsByName('exhibit');
@@ -176,7 +176,6 @@ $(document).ready(function () {
                 'proof_document': proof_document,
                 'number_loan': number_loan,
                 'list_exhibit': list_exhibit,
-                'current': current,
             }
             $.ajax({
                 type: "post",

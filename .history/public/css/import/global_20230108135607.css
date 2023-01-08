@@ -34,14 +34,6 @@ ul {
     color: var(--bg-orange);
 }
 
-.color-blue {
-    color: var(--bg-blue);
-}
-
-.bg-blue {
-    background-color: var(--bg-blue);
-}
-
 .bg-green {
     background-color: var(--bg-green);
     border-color: var(--bg-green);

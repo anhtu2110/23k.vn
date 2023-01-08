@@ -358,7 +358,7 @@ get_header();
                         <div class="modal-header">
                             <h5 class="modal-title f-20 color-green color-red">Đăng ký không thành công <span><i class="fa-regular fa-circle-xmark colored f-20"></i></h5>
                             <button class="close" data-dismiss="modal">
-                                <span class="f-20 color-blue">&times;</span>
+                                <span class="f-20">&times;</span>
                             </button>
                         </div>
                         <!-- END MODAL-HEADER -->
@@ -369,7 +369,7 @@ get_header();
                         </div>
                         <!-- END MODAL-BODY  -->
                         <div class="modal-footer">
-                            <button class="btn bg-blue text-white f-16" data-dismiss="modal">
+                            <button class="btn btn-secondary f-16" data-dismiss="modal">
                                 Đóng
                             </button>
                         </div>

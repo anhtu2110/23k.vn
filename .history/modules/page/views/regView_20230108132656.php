@@ -332,7 +332,7 @@ get_header();
                         <!-- END MODAL-HEADER -->
                         <div class="modal-body">
                             <p class="f-16">Bạn đã đăng ký thành công.</p>
-                            <p class="f-16">Vui lòng chờ tổng đài chăm sóc khách hàng liên hệ với bạn.</p>
+                            <p class="f-16">Vui lòng chờ đợi tổng đài chăm sóc khách hàng liên hệ với bạn.</p>
                             <p class="f-16">Hoặc bạn có thể liên hệ hotline: <span class="f-20 color-green">086.830.0516</span></p>
                         </div>
                         <!-- END MODAL-BODY  -->
@@ -358,18 +358,18 @@ get_header();
                         <div class="modal-header">
                             <h5 class="modal-title f-20 color-green color-red">Đăng ký không thành công <span><i class="fa-regular fa-circle-xmark colored f-20"></i></h5>
                             <button class="close" data-dismiss="modal">
-                                <span class="f-20 color-blue">&times;</span>
+                                <span class="f-20 color-green">&times;</span>
                             </button>
                         </div>
                         <!-- END MODAL-HEADER -->
                         <div class="modal-body">
-                            <p class="f-16">Bạn đã đăng ký <span class="font-weight-bold color-red">không</span> thành công.</p>
+                            <p class="f-16">Bạn đã đăng ký không thành công.</p>
                             <p class="f-16">Vui lòng điền đầy đủ thông tin đăng ký để được hỗ trợ nhanh nhất.</p>
-                            <p class="f-16">Hoặc bạn có thể liên hệ hotline: <span class="f-20 color-red">086.830.0516</span></p>
+                            <p class="f-16">Hoặc bạn có thể liên hệ hotline: <span class="f-20 color-green">086.830.0516</span></p>
                         </div>
                         <!-- END MODAL-BODY  -->
                         <div class="modal-footer">
-                            <button class="btn bg-blue text-white f-16" data-dismiss="modal">
+                            <button class="btn btn-primary f-16" data-dismiss="modal">
                                 Đóng
                             </button>
                         </div>

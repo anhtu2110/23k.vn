@@ -123,7 +123,7 @@ function send_info_customerAction()
     $proof_document = htmlspecialchars($_POST['proof_document']);
     $number_loan = htmlspecialchars($_POST['number_loan'] . " triệu");
     $list_exhibit = htmlspecialchars($_POST['list_exhibit']);
-    $current = htmlspecialchars($_POST['current']);
+
 
     $email = "daotu2110@gmail.com";
     $subject = "Khách vay tiền";
@@ -216,7 +216,7 @@ function send_info_customerAction()
         'proof_document' => $proof_document,
         'number_loan' => $number_loan,
         'list_exhibit' => $list_exhibit,
-        'time_reg' => $current,
+        // 'time_reg' => ,
     );
     $database = new DB;
     $database->insert($table, $data);
