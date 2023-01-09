@@ -46,7 +46,7 @@ get_header();
                             </div>
                             <div class="form-group">
                                 <label for="number_loan">Số tiền cần vay<span class="star">*</span></label>
-                                <div class="col-8 col-lg-6 pl-0">
+                                <div class="col-6 pl-0">
                                     <div class="input-group">
                                         <input type="number" min="0" max="50" class="form-control text-center" name="number_loan" id="number_loan" placeholder="Chọn số" value="" />
                                         <div class="input-group-append">

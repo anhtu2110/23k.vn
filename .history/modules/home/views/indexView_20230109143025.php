@@ -1,6 +1,52 @@
 <?php
 get_header();
 ?>
+<div class="list-benefit d-block d-lg-none">
+    <ul class="benefit d-flex justify-content-between">
+        <li class="benefit-item">Lãi suất hấp dẫn</li>
+        <li class="benefit-item">Thủ tục đơn giản </li>
+        <li class="benefit-item">Giải ngân dễ dàng</li>
+    </ul>
+</div>
+<section class="home-banner d-none d-md-block">
+    <div id="banner" class="banner carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#banner" class="active" data-slide-to="0"></li>
+            <li data-target="#banner" data-slide-to="1"></li>
+            <li data-target="#banner" data-slide-to="2"></li>
+            <li data-target="#banner" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/20220511164418256-1920 x 470.jpg" alt="">
+                </a>
+            </div>
+            <div class="carousel-item" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/20221012100205330-f88 vay tiền destop.png" alt="">
+                </a>
+            </div>
+            <div class="carousel-item" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/20221118174037871-destop wc vay tiền tại f88.jpg" alt="">
+                </a>
+            </div>
+            <div class="carousel-item" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/slider_4.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <a href="#banner" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#banner" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</section>
+<!-- END BANNER  -->
 <div class="home-form-wrapper">
     <div class="container">
         <!-- <div class="row"> -->

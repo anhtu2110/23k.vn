@@ -134,7 +134,7 @@ ul.benefit li.benefit-item::before {
     }
 
     ul.benefit li.benefit-item::before {
-        padding-right: 5px;
+        padding-right: 0px;
     }
 }
 

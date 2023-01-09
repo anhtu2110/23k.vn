@@ -9,7 +9,7 @@ get_header();
                 <div class="form-intro col-md-7">
                     <h2>Thông tin gói vay</h2>
                     <ul class="list-content-info">
-                        <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>Chỉ cần Căn cước công dân hoặc Sổ hộ khẩu, duyệt vay nhanh chóng trong 15 phút</li>
+                        <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>Chỉ cần Căn cước công dân hoặc Sổ hộ khẩu, duyệt vay nhanh chóng trong <span class="d-inline-flex color-green">15 phút</span></li>
                         <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>15 phút có tiền</li>
                         <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>Khoản vay tối đa 50 triệu, xét duyệt nhanh chóng</li>
                         <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>Lãi suất vay hợp lý</li>

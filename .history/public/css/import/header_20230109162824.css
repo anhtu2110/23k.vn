@@ -132,21 +132,9 @@ ul.benefit li.benefit-item::before {
         padding-block: 1.5rem;
         padding-inline: 0;
     }
-
-    ul.benefit li.benefit-item::before {
-        padding-right: 5px;
-    }
 }
 
 @media screen and (max-width: 767px) {
-    #wp-header {
-        height: 100px !important;
-    }
-
-    #header .logo a.logo img {
-        width: 7rem;
-    }
-
     a.hotline {
         font-size: 1.6rem;
         padding: 5px;
@@ -164,8 +152,8 @@ ul.benefit li.benefit-item::before {
 }
 
 @media screen and (max-width: 535px) {
-    #wp-header {
-        height: 94px !important;
+    #header .logo a.logo img {
+        width: 8rem;
     }
 
     .header-mobile .header-top p {
@@ -178,14 +166,6 @@ ul.benefit li.benefit-item::before {
 }
 
 @media screen and (max-width: 420px) {
-    #wp-header {
-        height: 91px !important;
-    }
-
-    .header-mobile .header-top p {
-        font-size: 1.2rem;
-    }
-
     ul.benefit li.benefit-item {
         font-size: 1rem;
     }

@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="header-top">
-                    <div class="container d-flex justify-content-end justify-content-md-center align-items-center">
+                    <div class="container d-flex justify-content-end justify-content-md-center">
                         <p class="w-content"><span class="content text-uppercase">Hỗ trợ khách vay hộ khẩu hà
                                 nội</span></p>
                     </div>

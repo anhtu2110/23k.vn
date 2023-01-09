@@ -236,7 +236,7 @@ function check_check_address() {
         $("#error_check_address").html("");
         return true;
     } else {
-        $("#error_check_address").html("*Vui lòng chọn Có hoặc Không");
+        $("#error_check_address").html("*vui lòng chọn Có hoặc Không");
         return false;
     }
 }

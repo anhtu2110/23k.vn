@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="header-top">
-                    <div class="container d-flex justify-content-end justify-content-md-center align-items-center">
+                    <div class="container d-flex justify-content-end justify-content-md-center">
                         <p class="w-content"><span class="content text-uppercase">Hỗ trợ khách vay hộ khẩu hà
                                 nội</span></p>
                     </div>
@@ -98,80 +98,3 @@
                     <li class="benefit-item">Giải ngân dễ dàng</li>
                 </ul>
             </div>
-            <section class="home-banner d-none d-md-block">
-                <div id="banner" class="banner carousel slide carousel-fade" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#banner" class="active" data-slide-to="0"></li>
-                        <li data-target="#banner" data-slide-to="1"></li>
-                        <li data-target="#banner" data-slide-to="2"></li>
-                        <li data-target="#banner" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-interval="2500">
-                            <a href="">
-                                <img class="desktop" src="./public/images/20220511164418256-1920 x 470.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="carousel-item" data-interval="2500">
-                            <a href="">
-                                <img class="desktop" src="./public/images/20221012100205330-f88 vay tiền destop.png" alt="">
-                            </a>
-                        </div>
-                        <div class="carousel-item" data-interval="2500">
-                            <a href="">
-                                <img class="desktop" src="./public/images/20221118174037871-destop wc vay tiền tại f88.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="carousel-item" data-interval="2500">
-                            <a href="">
-                                <img class="desktop" src="./public/images/slider_4.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <a href="#banner" class="carousel-control-prev" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a href="#banner" class="carousel-control-next" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
-            </section>
-            <section class="home-banner-mobile d-block d-md-none">
-                <div id="banner-mobile" class="banner-mobile carousel slide carousel-fade" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#banner-mobile" class="active" data-slide-to="0"></li>
-                        <li data-target="#banner-mobile" data-slide-to="1"></li>
-                        <li data-target="#banner-mobile" data-slide-to="2"></li>
-                        <li data-target="#banner-mobile" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-interval="2500">
-                            <a href="">
-                                <img class="desktop" src="./public/images/20221118173653929-wc mobile f88 cho vay tiền_mobile.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="carousel-item" data-interval="2500">
-                            <a href="">
-                                <img class="desktop" src="./public/images/vayf88online_mobile.png" alt="">
-                            </a>
-                        </div>
-                        <div class="carousel-item" data-interval="2500">
-                            <a href="">
-                                <img class="desktop" src="./public/images/vaybangoto_mobile.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="carousel-item" data-interval="2500">
-                            <a href="">
-                                <img class="desktop" src="./public/images/cantiengoilien_mobile.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <a href="#banner-mobile" class="carousel-control-prev" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a href="#banner-mobile" class="carousel-control-next" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
-            </section>
-            <!-- END HOME-BANNER  -->
