@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 420px) {
     #should-choose ul.list-reason li.reason-item p {
-        font-size: 1.3rem;
+        font-size: 1.3rem !important;
     }
 }

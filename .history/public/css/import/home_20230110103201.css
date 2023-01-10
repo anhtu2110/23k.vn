@@ -195,14 +195,6 @@
         font-size: 1.8rem;
     }
 
-    a.content-blog {
-        box-shadow: 1px 1px 3px grey;
-    }
-
-    .content a {
-        box-shadow: 1px 1px 3px grey;
-    }
-
     .content p {
         font-size: 1.4rem;
     }
@@ -214,7 +206,7 @@
 
     .content .content-left {
         background-color: var(--bg-page);
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     .content .content-left .content-blog .info {

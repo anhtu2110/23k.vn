@@ -111,32 +111,32 @@ get_header();
                 <div class="content-right col-12 col-xl-5 d-lg-flex flex-lg-column flex-row justify-content-lg-between">
                     <a href="" class="content-blog-extra d-flex mb-5">
                         <div class="row no-gutters">
-                            <div class="info col-md-7 order-1 order-lg-0">
+                            <div class="info col-md-7">
                                 <h3>Bất động sản cao cấp vẫn hấp dẫn giới siêu giàu</h3>
                                 <span class="date-created">24-12-2022</span>
                                 <p>Giới siêu giàu sẽ tiếp tục đổ về dự án bất động sản cao cấp với những sản phẩm sang trọng</p>
                             </div>
-                            <div class="block-image col-md-5 order-0 order-lg-1"> <img src="./public/images/home/featured-news/anh-3-sunneva-island-diem-den-9851-6946-1672908629.jpg"> </div>
+                            <div class="block-image col-md-5"> <img src="./public/images/home/featured-news/anh-3-sunneva-island-diem-den-9851-6946-1672908629.jpg"> </div>
                         </div>
                     </a>
                     <a href="" class="content-blog-extra d-flex mb-5">
                         <div class="row no-gutters">
-                            <div class="info col-md-7 order-1 order-lg-0">
+                            <div class="info col-md-7">
                                 <h3>VN-Index tăng gần 40 điểm phiên đầu năm</h3>
                                 <span class="date-created">04-01-2023</span>
                                 <p>Chứng khoán tăng mạnh trong phiên đầu tiên của năm mới khi lực mua chiếm ưu thế áp đảo</p>
                             </div>
-                            <div class="block-image col-md-5 order-0 order-lg-1"> <img src="./public/images/home/featured-news/QUYN8123-1672736186-4266-1672736217.jpg"> </div>
+                            <div class="block-image col-md-5"> <img src="./public/images/home/featured-news/QUYN8123-1672736186-4266-1672736217.jpg"> </div>
                         </div>
                     </a>
                     <a href="" class="content-blog-extra d-flex">
                         <div class="row no-gutters">
-                            <div class="info col-md-7 order-1 order-lg-0">
+                            <div class="info col-md-7">
                                 <h3>Tỷ phú Mark Cuban vẫn thích Bitcoin hơn vàng</h3>
                                 <span class="date-created">07-01-2023</span>
                                 <p>Mark Cuban - người luôn ủng hộ tiền số, vẫn quyết tâm đầu tư vào Bitcoin</p>
                             </div>
-                            <div class="block-image col-md-5 order-0 order-lg-1"> <img src="./public/images/home/featured-news/mark-cuban-gold-bitcoin-167281-6180-1283-1672817540.jpg"> </div>
+                            <div class="block-image col-md-5"> <img src="./public/images/home/featured-news/mark-cuban-gold-bitcoin-167281-6180-1283-1672817540.jpg"> </div>
                         </div>
                     </a>
                     <!-- <a href="" class="content-blog-extra d-flex">
