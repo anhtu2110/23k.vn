@@ -41,9 +41,9 @@
                                     Đ.
                                     Lạc Long
                                     Quân, Bưởi, Cầu Giấy, Hà Nội, Việt Nam</a></li>
-                            <li class="info-contact-item"><a href="tel:0868300516"><i class="fa-solid fa-phone"></i>HOTLINE:
+                            <li class="info-contact-item"><a href="tel:0777170720"><i class="fa-solid fa-phone"></i>HOTLINE:
                                     0777.170.720</a></li>
-                            <li class="info-contact-item"><a href="https://www.facebook.com/profile.php?id=100089082490261" target="_blank"><i class="fa-brands fa-square-facebook"></i>www.facebook.com/groups/taichinh23k</a>
+                            <li class="info-contact-item"><a href=""><i class="fa-brands fa-square-facebook"></i>www.facebook.com/groups/taichinh23k</a>
                             </li>
                         </ul>
                     </div>
@@ -60,7 +60,7 @@
     <div id="wp-social-icon-mobile">
         <div id="social-icon-mobile" class="d-flex d-md-none">
             <div class="d-flex justify-content-center align-items-center">
-                <a href="tel:0868300516">
+                <a href="">
                     <img class="hotline-icon-mobile" src="./public/images/footer/social/call_1.png" alt="">
                     <p>Gọi ngay</p>
                 </a>
@@ -72,7 +72,7 @@
                 </a>
             </div>
             <div class="d-flex justify-content-center align-items-center">
-                <a href="https://zalo.me/0777170720" target="_blank">
+                <a href="" target="_blank">
                     <img class="hotline-icon-mobile" src="./public/images/footer/social/zalomb_1.png" alt="">
                     <p>Zalo chat</p>
                 </a>

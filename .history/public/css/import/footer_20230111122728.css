@@ -22,7 +22,7 @@ a.social-icon img {
 .btn-scrolltop {
     position: fixed;
     right: 50%;
-    transform: translateX(50%);
+    transform: translateX(-50%);
     bottom: 1rem;
     z-index: 1000;
     cursor: pointer;
@@ -123,7 +123,7 @@ ul.list-info-contact i {
 @media screen and (max-width: 767px) {
     .btn-scrolltop {
         bottom: 66px;
-        right: 25px;
+        right: 0px;
         z-index: 1000;
     }
 

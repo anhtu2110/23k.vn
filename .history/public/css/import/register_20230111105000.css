@@ -102,13 +102,6 @@
     border-radius: 1.3rem;
     padding: 0.5rem 1rem;
     width: 35%;
-    transition: all 0.25s ease-in-out;
-}
-
-.wp-btn-reg button.btn_reg:hover,
-.wp-btn-reg button.btn_reg:focus,
-.wp-btn-reg button.btn_reg:active {
-    background-color: var(--bg-orange);
 }
 
 /* END WP-INFO-REG  */
@@ -212,10 +205,6 @@
 }
 
 @media screen and (max-width: 767px) {
-    #wp-content {
-        padding-bottom: 4rem;
-    }
-
     #wp-info-reg .container h1 {
         color: var(--bg-green);
         padding: 2.5rem;

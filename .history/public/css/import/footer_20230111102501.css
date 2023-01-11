@@ -22,7 +22,7 @@ a.social-icon img {
 .btn-scrolltop {
     position: fixed;
     right: 50%;
-    transform: translateX(50%);
+    transform: translateX(-50%);
     bottom: 1rem;
     z-index: 1000;
     cursor: pointer;
@@ -123,12 +123,11 @@ ul.list-info-contact i {
 @media screen and (max-width: 767px) {
     .btn-scrolltop {
         bottom: 66px;
-        right: 25px;
-        z-index: 1000;
+        right: 0px;
     }
 
     .btn-scrolltop img {
-        width: 5.5rem;
+        width: 5rem;
         height: auto;
     }
 
@@ -144,17 +143,13 @@ ul.list-info-contact i {
         font-size: 1.4rem;
     }
 
-    #footer #footer-bottom {
-        padding-block: 2rem;
-    }
-
     #wp-social-icon-mobile {
         height: 60px;
     }
 
     #social-icon-mobile {
         display: flex;
-        background-color: var(--bg-green);
+        background-color: #00a3ff;
         height: 60px;
         position: fixed;
         bottom: 0;

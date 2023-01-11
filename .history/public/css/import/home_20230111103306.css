@@ -47,13 +47,6 @@
     color: var(--bg-white);
     border-radius: 6px;
     font-size: 1.6rem;
-    transition: all 0.25s ease-in-out;
-}
-
-.home-form-wrapper .form-subscribe-wrap .form-intro .wrapper-button button:hover,
-.home-form-wrapper .form-subscribe-wrap .form-intro .wrapper-button button:focus,
-.home-form-wrapper .form-subscribe-wrap .form-intro .wrapper-button button:active {
-    background-color: var(--bg-orange);
 }
 
 .home-form-wrapper .form-subscribe-wrap .wrapper-img-option {
@@ -245,9 +238,5 @@
     .content .content-right a.content-blog-extra {
         height: auto;
         border-radius: 5px;
-    }
-
-    .should-choose-home {
-        padding-bottom: 3rem;
     }
 }

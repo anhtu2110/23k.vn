@@ -2,10 +2,10 @@
 <!-- END SHOULD-CHOOSE  -->
 <!-- END WP-CONTENT  -->
 <div id="footer">
-    <a href="" class="social-icon social-icon-mess d-none d-md-block" target="_blank">
+    <a href="" class="social-icon social-icon-mess" target="_blank">
         <img src="./public/images/mess.png" alt="">
     </a>
-    <a href="https://zalo.me/0777170720" class="social-icon social-icon-zalo  d-none d-md-block" target="_blank">
+    <a href="https://zalo.me/0777170720" class="social-icon social-icon-zalo" target="_blank">
         <img src="./public/images/zalo.png" alt="">
     </a>
     <div class="btn-scrolltop">
@@ -26,6 +26,9 @@
     </div>
     <!-- END FOOTER-TOP  -->
     <div id="footer-bottom">
+        <div id="social-icon-mobile" class="d-flex d-md-none">
+
+        </div>
         <div class="container">
             <div class="row">
                 <div class="footer-logo col-md-3 col-lg-2 col-4 col-sm-3">
@@ -41,9 +44,9 @@
                                     Đ.
                                     Lạc Long
                                     Quân, Bưởi, Cầu Giấy, Hà Nội, Việt Nam</a></li>
-                            <li class="info-contact-item"><a href="tel:0868300516"><i class="fa-solid fa-phone"></i>HOTLINE:
+                            <li class="info-contact-item"><a href="tel:0777170720"><i class="fa-solid fa-phone"></i>HOTLINE:
                                     0777.170.720</a></li>
-                            <li class="info-contact-item"><a href="https://www.facebook.com/profile.php?id=100089082490261" target="_blank"><i class="fa-brands fa-square-facebook"></i>www.facebook.com/groups/taichinh23k</a>
+                            <li class="info-contact-item"><a href=""><i class="fa-brands fa-square-facebook"></i>www.facebook.com/groups/taichinh23k</a>
                             </li>
                         </ul>
                     </div>
@@ -54,28 +57,6 @@
                                 Tài Chính 23K</a></blockquote>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div id="wp-social-icon-mobile">
-        <div id="social-icon-mobile" class="d-flex d-md-none">
-            <div class="d-flex justify-content-center align-items-center">
-                <a href="tel:0868300516">
-                    <img class="hotline-icon-mobile" src="./public/images/footer/social/call_1.png" alt="">
-                    <p>Gọi ngay</p>
-                </a>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-                <a href="" target="_blank">
-                    <img class="hotline-icon-mobile" src="./public/images/footer/social/messmb_1.png" alt="">
-                    <p>Facebook chat</p>
-                </a>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-                <a href="https://zalo.me/0777170720" target="_blank">
-                    <img class="hotline-icon-mobile" src="./public/images/footer/social/zalomb_1.png" alt="">
-                    <p>Zalo chat</p>
-                </a>
             </div>
         </div>
     </div>

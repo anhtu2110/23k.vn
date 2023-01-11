@@ -123,7 +123,7 @@ ul.list-info-contact i {
 @media screen and (max-width: 767px) {
     .btn-scrolltop {
         bottom: 66px;
-        right: 25px;
+        right: 10px;
         z-index: 1000;
     }
 

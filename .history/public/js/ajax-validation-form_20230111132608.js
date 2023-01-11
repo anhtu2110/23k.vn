@@ -215,9 +215,6 @@ function check_number_phone() {
     } else if (!validnumber_phone) {
         $("#error_number_phone").html("*Số điện thoại không đúng định dạng");
         return false;
-    } else if (number_phone.length != 10) {
-        $("#error_number_phone").html("*Số điện thoại gồm 10 số");
-        return false;
     } else {
         $('#error_number_phone').html('');
         return true;
@@ -283,7 +280,6 @@ function check_number_loan() {
         return false;
     } else if (number_loan < 5 || number_loan > 100) {
         $("#error_number_loan").html("*Số tiền nhập không hợp lệ, từ 5-100 triệu");
-        return false;
     } else {
         $("#error_number_loan").html("");
         return true;

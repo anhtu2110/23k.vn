@@ -47,7 +47,6 @@
     color: var(--bg-white);
     border-radius: 6px;
     font-size: 1.6rem;
-    transition: all 0.25s ease-in-out;
 }
 
 .home-form-wrapper .form-subscribe-wrap .form-intro .wrapper-button button:hover,

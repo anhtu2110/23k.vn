@@ -212,11 +212,8 @@ function check_number_phone() {
     if (number_phone.length == 0) {
         $("#error_number_phone").html("*Vui lòng nhập số điện thoại");
         return false;
-    } else if (!validnumber_phone) {
+    } else if (!validnumber_phone || number_phone != 10) {
         $("#error_number_phone").html("*Số điện thoại không đúng định dạng");
-        return false;
-    } else if (number_phone.length != 10) {
-        $("#error_number_phone").html("*Số điện thoại gồm 10 số");
         return false;
     } else {
         $('#error_number_phone').html('');

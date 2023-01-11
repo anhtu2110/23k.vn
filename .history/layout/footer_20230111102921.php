@@ -72,7 +72,7 @@
                 </a>
             </div>
             <div class="d-flex justify-content-center align-items-center">
-                <a href="https://zalo.me/0777170720" target="_blank">
+                <a href="" target="_blank">
                     <img class="hotline-icon-mobile" src="./public/images/footer/social/zalomb_1.png" alt="">
                     <p>Zalo chat</p>
                 </a>
