@@ -127,14 +127,9 @@
                                 <img class="desktop" src="./public/images/slider_4.jpg" alt="">
                             </a>
                         </div> -->
-                        <div class="carousel-item active" data-interval="2500">
-                            <a href="">
-                                <img class="desktop" src="./public/images/banner/banner.png" alt="">
-                            </a>
-                        </div>
                         <div class="carousel-item" data-interval="2500">
                             <a href="">
-                                <img class="desktop" src="./public/images/banner/banner2.png" alt="">
+                                <img class="desktop" src="./public/images/banner/banner.png" alt="">
                             </a>
                         </div>
                     </div>

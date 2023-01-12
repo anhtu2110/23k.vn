@@ -118,21 +118,5 @@ function list_sliderAction()
 }
 function del_slider_deskAction()
 {
-    load('lib', 'database_oop');
     $id = $_POST['id'];
-    $db = new DB;
-    $slider_item = db_fetch_row("SELECT * FROM `tbl_slider_desktop` WHERE `id` = $id");
-    $result_unlink = unlink($slider_item['path_admin']);
-    $result_del_db = $db->delete("tbl_slider_desktop", "`id` = $id");
-    echo $result_unlink;
-}
-function del_slider_mobileAction()
-{
-    load('lib', 'database_oop');
-    $id = $_POST['id'];
-    $db = new DB;
-    $slider_item = db_fetch_row("SELECT * FROM `tbl_slider_mobile` WHERE `id` = $id");
-    $result_unlink = unlink($slider_item['path_admin']);
-    $result_del_db = $db->delete("tbl_slider_mobile", "`id` = $id");
-    echo $result_unlink;
 }

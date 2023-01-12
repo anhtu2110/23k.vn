@@ -6,8 +6,8 @@ get_sidebar();
 ?>
 <style>
     tbody td img {
-        width: auto;
-        height: 75px;
+        width: 80px;
+        height: auto;
     }
 </style>
 <div id="content" class="container-fluid">

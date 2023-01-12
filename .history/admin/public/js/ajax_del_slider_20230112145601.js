@@ -10,7 +10,7 @@ $(document).ready(function () {
             data: data, // Dữ liệu truyền lên server
             dataType: 'text', // html, text, script hoặc json
             success: function (data) {
-                if (data) {
+                if (data == true) {
                     alert("Xoá thành công");
                 } else {
                     alert("Xoá không thành công");

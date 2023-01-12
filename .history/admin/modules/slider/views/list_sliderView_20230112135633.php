@@ -6,8 +6,8 @@ get_sidebar();
 ?>
 <style>
     tbody td img {
-        width: auto;
-        height: 75px;
+        width: 80px;
+        height: auto;
     }
 </style>
 <div id="content" class="container-fluid">
@@ -106,7 +106,7 @@ get_sidebar();
                             <td><img src="<?php echo $value['path_admin'] ?>" alt=""></td>
                             <td><?php echo $value['creator'] ?></td>
                             <td><?php echo $value['created_date'] ?></td>
-                            <td><button id="del_slider_mobile" class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" data-id="<?php echo $value['id'] ?>"><i class="fa fa-trash"></i></button>
+                            <td><button id="del_slider_mobile" class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></button>
                             </td>
 
                         </tr>
