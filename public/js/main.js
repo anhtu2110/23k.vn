@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    $(".carousel-item:first").addClass('active');
+    $("ol.carousel-indicators li:first").addClass('active');
     var height_header = $("#header").height();
     $("#wp-header").height(height_header);
     $(window).resize(function () {

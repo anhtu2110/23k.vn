@@ -11,42 +11,31 @@ get_header();
 <section class="home-banner d-none d-md-block">
     <div id="banner" class="banner carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#banner" class="active" data-slide-to="0"></li>
-            <li data-target="#banner" data-slide-to="1"></li>
-            <li data-target="#banner" data-slide-to="2"></li>
-            <li data-target="#banner" data-slide-to="3"></li>
+            <?php
+            if (!empty($list_slider)) {
+                $i = 0;
+                foreach ($list_slider as $key => $value) {
+            ?>
+                    <li data-target="#banner" data-slide-to="<?php echo $i ?>"></li>
+            <?php
+                }
+            }
+            ?>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/20220511164418256-1920 x 470.jpg" alt="">
-                </a>
-            </div>
-            <div class="carousel-item" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/20221012100205330-f88 vay tiền destop.png" alt="">
-                </a>
-            </div>
-            <div class="carousel-item" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/20221118174037871-destop wc vay tiền tại f88.jpg" alt="">
-                </a>
-            </div>
-            <div class="carousel-item" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/slider_4.jpg" alt="">
-                </a>
-            </div>
-            <!-- <div class="carousel-item active" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/banner/banner.png" alt="">
-                </a>
-            </div>
-            <div class="carousel-item" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/banner/banner2.png" alt="">
-                </a>
-            </div> -->
+            <?php
+            if (!empty($list_slider)) {
+                foreach ($list_slider as $key => $value) {
+            ?>
+                    <div class="carousel-item" data-interval="2500">
+                        <a href="#wp-form-reg">
+                            <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
+                        </a>
+                    </div>
+            <?php
+                }
+            }
+            ?>
         </div>
         <a href="#banner" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>

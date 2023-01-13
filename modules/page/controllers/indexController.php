@@ -8,6 +8,7 @@ function indexAction()
 }
 function regAction()
 {
+    load('lib', 'database_oop');
     load('lib', 'validation');
     global $error, $fullname, $number_phone, $address, $check_address, $proof_document, $exhibit, $list_exhibit;
     if (isset($_POST['btn_reg'])) {
@@ -55,7 +56,12 @@ function regAction()
             $list_exhibit = $_POST['list_exhibit'];
         }
     }
-    load_view('reg');
+    $db = new DB;
+    $list_slider = $db->get("tbl_slider_desktop", $field = array(), $where = "");
+    $data = array(
+        'list_slider' => $list_slider,
+    );
+    load_view('reg', $data);
 }
 function check_regAction()
 {

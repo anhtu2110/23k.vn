@@ -98,7 +98,7 @@ class DB
         $sql = "UPDATE `{$table}` SET {$list_set} {$where}";
 
         if ($this->query($sql) == TRUE) {
-            echo "Cập nhật thành công";
+            return true;
         } else {
             echo "Lỗi: " . $this->conn->error;
         }

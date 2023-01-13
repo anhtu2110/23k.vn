@@ -11,47 +11,30 @@ get_header();
 <section class="home-banner d-none d-md-block">
     <div id="banner" class="banner carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#banner" class="active" data-slide-to="0"></li>
-            <li data-target="#banner" data-slide-to="1"></li>
-            <li data-target="#banner" data-slide-to="2"></li>
-            <li data-target="#banner" data-slide-to="3"></li>
+            <?php
+            if (!empty($list_slider)) {
+                $i = 0;
+                foreach ($list_slider as $key => $value) {
+            ?>
+                    <li data-target="#banner" data-slide-to="<?php echo $i ?>"></li>
+            <?php
+                }
+            }
+            ?>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/20220511164418256-1920 x 470.jpg" alt="">
-                </a>
-            </div>
-            <!-- <div class="carousel-item" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/20221012100205330-f88 vay tiền destop.png" alt="">
-                </a>
-            </div>
-            <div class="carousel-item" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/20221118174037871-destop wc vay tiền tại f88.jpg" alt="">
-                </a>
-            </div>
-            <div class="carousel-item" data-interval="2500">
-                <a href="">
-                    <img class="desktop" src="./public/images/slider_4.jpg" alt="">
-                </a>
-            </div> -->
             <?php
             if (!empty($list_slider)) {
                 foreach ($list_slider as $key => $value) {
             ?>
                     <div class="carousel-item" data-interval="2500">
-                        <a href="">
+                        <a href="?mod=page&action=reg">
                             <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
                         </a>
                     </div>
             <?php
                 }
             }
-            ?>
-            <?php
-            // show_array($list_slider);
             ?>
         </div>
         <a href="#banner" class="carousel-control-prev" data-slide="prev">
@@ -122,7 +105,7 @@ get_header();
                 </div>
                 <!-- END FORM-INTRO  -->
                 <div class="wrapper-img-option col-md-5 order-0 order-md-1">
-                    <img class="d-block" src="./public/images/home/home-image-1.png" alt="">
+                    <img class="d-block" src="<?php echo $img_option_home ?>" alt="">
                 </div>
             </div>
         </div>
@@ -197,7 +180,7 @@ get_header();
             <h2 class="section-title">Tin tức nổi bật</h2>
             <div class="row">
                 <div class="content-left col-12 col-xl-7">
-                    <a href="" class="content-blog">
+                    <a href="?mod=page&action=reg" class="content-blog">
                         <div>
                             <img src="./public/images/home/featured-news/20220425114147208-lam-phat-la-gi-nguyen-nhan-dan-den-lam-phat-2.jpg" alt="">
                         </div>
@@ -209,7 +192,7 @@ get_header();
                     </a>
                 </div>
                 <div class="content-right col-12 col-xl-5 d-lg-flex flex-lg-column flex-row justify-content-lg-between">
-                    <a href="" class="content-blog-extra d-flex mb-5">
+                    <a href="?mod=page&action=reg" class="content-blog-extra d-flex mb-5">
                         <div class="row no-gutters">
                             <div class="info col-md-7 order-1 order-lg-0">
                                 <h3>Bất động sản cao cấp vẫn hấp dẫn giới siêu giàu</h3>
@@ -219,7 +202,7 @@ get_header();
                             <div class="block-image col-md-5 order-0 order-lg-1"> <img src="./public/images/home/featured-news/anh-3-sunneva-island-diem-den-9851-6946-1672908629.jpg"> </div>
                         </div>
                     </a>
-                    <a href="" class="content-blog-extra d-flex mb-5">
+                    <a href="?mod=page&action=reg" class="content-blog-extra d-flex mb-5">
                         <div class="row no-gutters">
                             <div class="info col-md-7 order-1 order-lg-0">
                                 <h3>VN-Index tăng gần 40 điểm phiên đầu năm</h3>
@@ -229,7 +212,7 @@ get_header();
                             <div class="block-image col-md-5 order-0 order-lg-1"> <img src="./public/images/home/featured-news/QUYN8123-1672736186-4266-1672736217.jpg"> </div>
                         </div>
                     </a>
-                    <a href="" class="content-blog-extra d-flex">
+                    <a href="?mod=page&action=reg" class="content-blog-extra d-flex">
                         <div class="row no-gutters">
                             <div class="info col-md-7 order-1 order-lg-0">
                                 <h3>Tỷ phú Mark Cuban vẫn thích Bitcoin hơn vàng</h3>

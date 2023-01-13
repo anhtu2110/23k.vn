@@ -11,6 +11,7 @@ get_sidebar();
     }
 </style>
 <div id="content" class="container-fluid">
+    <h1 class="text-center">Danh sách slider</h1>
     <div class="card">
         <div class="card-header font-weight-bold d-flex justify-content-between align-items-center">
             <h5 class="m-0 ">Danh sách slider destop (1920x473)</h5>
@@ -139,3 +140,4 @@ get_sidebar();
 </div>
 <?php
 get_footer();
+?>

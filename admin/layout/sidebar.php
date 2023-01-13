@@ -25,6 +25,20 @@
                 </ul>
             </li>
             <li class="nav-link">
+                <a href="?mod=home_img&action=index">
+                    <div class="nav-link-icon d-inline-flex">
+                        <i class="far fa-folder"></i>
+                    </div>
+                    Home img
+                </a>
+                <i class="arrow fas fa-angle-right"></i>
+
+                <ul class="sub-menu">
+                    <li><a href="?mod=home_img&action=add_img_home">Đổi ảnh img</a></li>
+                    <li><a href="?mod=home_img&action=index">Ảnh home</a></li>
+                </ul>
+            </li>
+            <li class="nav-link">
                 <a href="?mod=page&action=list_post">
                     <div class="nav-link-icon d-inline-flex">
                         <i class="far fa-folder"></i>
