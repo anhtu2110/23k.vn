@@ -17,12 +17,12 @@ get_header();
             <li data-target="#banner" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="2500">
+            <!-- <div class="carousel-item active" data-interval="2500">
                 <a href="">
                     <img class="desktop" src="./public/images/20220511164418256-1920 x 470.jpg" alt="">
                 </a>
             </div>
-            <!-- <div class="carousel-item" data-interval="2500">
+            <div class="carousel-item" data-interval="2500">
                 <a href="">
                     <img class="desktop" src="./public/images/20221012100205330-f88 vay tiền destop.png" alt="">
                 </a>
@@ -43,15 +43,12 @@ get_header();
             ?>
                     <div class="carousel-item" data-interval="2500">
                         <a href="">
-                            <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
+                            <img class="desktop" src="./public/images/20221118174037871-destop wc vay tiền tại f88.jpg" alt="">
                         </a>
                     </div>
             <?php
                 }
             }
-            ?>
-            <?php
-            // show_array($list_slider);
             ?>
         </div>
         <a href="#banner" class="carousel-control-prev" data-slide="prev">

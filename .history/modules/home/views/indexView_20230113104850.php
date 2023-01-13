@@ -43,7 +43,7 @@ get_header();
             ?>
                     <div class="carousel-item" data-interval="2500">
                         <a href="">
-                            <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
+                            <img class="desktop" src="./public/images/20220511164418256-1920 x 470.jpg" alt="">
                         </a>
                     </div>
             <?php

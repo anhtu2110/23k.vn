@@ -22,7 +22,7 @@ get_header();
                     <img class="desktop" src="./public/images/20220511164418256-1920 x 470.jpg" alt="">
                 </a>
             </div>
-            <!-- <div class="carousel-item" data-interval="2500">
+            <div class="carousel-item" data-interval="2500">
                 <a href="">
                     <img class="desktop" src="./public/images/20221012100205330-f88 vay tiền destop.png" alt="">
                 </a>
@@ -36,23 +36,17 @@ get_header();
                 <a href="">
                     <img class="desktop" src="./public/images/slider_4.jpg" alt="">
                 </a>
+            </div>
+            <!-- <div class="carousel-item active" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/banner/banner.png" alt="">
+                </a>
+            </div>
+            <div class="carousel-item" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/banner/banner2.png" alt="">
+                </a>
             </div> -->
-            <?php
-            if (!empty($list_slider)) {
-                foreach ($list_slider as $key => $value) {
-            ?>
-                    <div class="carousel-item" data-interval="2500">
-                        <a href="">
-                            <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
-                        </a>
-                    </div>
-            <?php
-                }
-            }
-            ?>
-            <?php
-            // show_array($list_slider);
-            ?>
         </div>
         <a href="#banner" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
