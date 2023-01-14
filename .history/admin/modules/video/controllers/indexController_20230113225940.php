@@ -4,11 +4,7 @@ function construct()
 }
 function indexAction()
 {
-    load('lib', 'database_oop');
-    $data_send = array(
-        'video' => db_fetch_array("SELECT * FROM `tbl_video`"),
-    );
-    load_view('index', $data_send);
+    load_view('index');
 }
 function add_videoAction()
 {
@@ -20,10 +16,10 @@ function add_videoAction()
         // show_array($_FILES);
         $error = array();
         $success = array();
-        $type_allow = array('mp4', 'ogg');
+        $type_allow = array('png', 'jpg', 'gif', 'jpeg');
         $type = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
         if (!in_array(strtolower($type), $type_allow)) {
-            $error['type'] = "Chỉ được upload file có định dạng mp4, ogg";
+            $error['type'] = "Chỉ được upload file có định dạng png, jpg, gif, jpeg";
         } else {
             $file_size = $_FILES['file']['size'];
             if ($file_size < 21000000) {
@@ -57,8 +53,7 @@ function add_videoAction()
                 $where = "`id` = 0";
                 $db = new DB;
                 $path_admin_old = db_fetch_row("SELECT `path_admin` FROM `tbl_video` WHERE `id` = 0");
-                unlink($path_admin_old['path_admin']);
-                if ($db->update($table, $data, $where)) {
+                if ($db->update($table, $data, $where) && unlink($path_admin_old['path_admin'])) {
                     $success['upload'] = "Upload file thành công";
                 }
             }

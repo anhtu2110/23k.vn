@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>23K</title>
-    <base href="<?php echo base_url() ?>">
     <link rel="icon" type="image/x-icon" href="./public/images/footer/logo/footer_logo.png">
     <link rel="stylesheet" href="public/css/bootstrap/bootstrap-theme.css" type="text/css" />
     <link rel="stylesheet" href="public/css/bootstrap/bootstrap.css" type="text/css" />
@@ -15,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="public/style.css" type="text/css" />
     <link rel="stylesheet" href="public/responsive.css" type="text/css" />
+    <title>23K</title>
 </head>
 
 <body>
@@ -26,7 +25,7 @@
             <div id="header" class="header-desktop">
                 <div class="container">
                     <div class="logo">
-                        <a href="trang-chu.html" class="logo">
+                        <a href="?mod=home" class="logo">
                             <img src="./public/images/header/LOGO.png" alt="">
                         </a>
                     </div>
@@ -59,7 +58,7 @@
             </div>
         </div>
         <div id="wp-header" class="d-block d-lg-none">
-            <div id="header" class="header-mobile">
+            <div id="header" class="header-mobile position-relative position-md-fixed">
                 <div class="container">
                     <div class="logo">
                         <a href="?mod=home" class="logo">

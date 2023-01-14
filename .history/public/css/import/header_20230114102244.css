@@ -141,7 +141,7 @@ ul.benefit li.benefit-item::before {
         height: 100px !important;
     }
 
-    #header {
+    .header {
         position: relative;
     }
 

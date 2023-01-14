@@ -48,8 +48,8 @@
                 <i class="arrow fas fa-angle-right"></i>
 
                 <ul class="sub-menu">
-                    <li><a href="?mod=video&action=add_video">Thay đổi video</a></li>
-                    <li><a href="?mod=video&action=index">Danh sách Video</a></li>
+                    <li><a href="?mod=home_img&action=add_img_home">Thay đổi video</a></li>
+                    <li><a href="?mod=home_img&action=index">Danh sách Video</a></li>
                 </ul>
             </li>
             <li class="nav-link">

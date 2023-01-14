@@ -4,11 +4,7 @@ function construct()
 }
 function indexAction()
 {
-    load('lib', 'database_oop');
-    $data_send = array(
-        'video' => db_fetch_array("SELECT * FROM `tbl_video`"),
-    );
-    load_view('index', $data_send);
+    load_view('index');
 }
 function add_videoAction()
 {
@@ -57,7 +53,6 @@ function add_videoAction()
                 $where = "`id` = 0";
                 $db = new DB;
                 $path_admin_old = db_fetch_row("SELECT `path_admin` FROM `tbl_video` WHERE `id` = 0");
-                unlink($path_admin_old['path_admin']);
                 if ($db->update($table, $data, $where)) {
                     $success['upload'] = "Upload file thành công";
                 }

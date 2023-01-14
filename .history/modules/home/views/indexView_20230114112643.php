@@ -130,13 +130,13 @@ get_header();
                 <div class="row text-center">
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/thu_tuc.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/thu_tuc.png" alt=""></a>
                             <p>Thủ tục đơn giản chỉ cần CCCD & sổ hộ khẩu Hà Nội</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/tham_dinh.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/tham_dinh.png" alt=""></a>
                             <p>
                                 Thẩm định nhanh chóng linh hoạt
                             </p>
@@ -144,25 +144,25 @@ get_header();
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose//lai_suat.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose//lai_suat.png" alt=""></a>
                             <p>Lãi suất ưu đãi nhất Hà Nội</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/tu_van.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/tu_van.png" alt=""></a>
                             <p>Đăng ký tư vấn online dễ dàng</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/bao_mat.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/bao_mat.png" alt=""></a>
                             <p>Bảo mật thông tin khách hàng</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/niemtin.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/niemtin.png" alt=""></a>
                             <p class="m-0 p-0">Trao giá trị
                             <p class="m-0 p-0">Nhận niềm tin</p>
                             </p>

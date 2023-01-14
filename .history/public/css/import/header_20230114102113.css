@@ -141,10 +141,6 @@ ul.benefit li.benefit-item::before {
         height: 100px !important;
     }
 
-    #header {
-        position: relative;
-    }
-
     #header .logo a.logo img {
         width: 7rem;
     }

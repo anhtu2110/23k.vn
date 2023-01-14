@@ -13,7 +13,6 @@ function indexAction()
     $data = array(
         'list_slider' => $list_slider,
         'img_option_home' => $img_option_home['path_client'],
-        'path_video' => $path_video['path_client'],
     );
     load_view('index', $data);
 }

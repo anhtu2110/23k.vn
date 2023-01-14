@@ -26,7 +26,7 @@
             <div id="header" class="header-desktop">
                 <div class="container">
                     <div class="logo">
-                        <a href="trang-chu.html" class="logo">
+                        <a href="?mod=home" class="logo">
                             <img src="./public/images/header/LOGO.png" alt="">
                         </a>
                     </div>

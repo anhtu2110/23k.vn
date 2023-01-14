@@ -28,7 +28,7 @@ get_header();
                 foreach ($list_slider as $key => $value) {
             ?>
                     <div class="carousel-item" data-interval="2500">
-                        <a href="thong-tin-dang-ky.html">
+                        <a href="?mod=page&action=reg">
                             <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
                         </a>
                     </div>
@@ -90,7 +90,7 @@ get_header();
         <div class="form-subscribe-wrap d-flex w-100">
             <div class="row">
                 <div class="form-intro col-md-7 order-1 order-md-0">
-                    <h1>Thông tin gói vay</h1>
+                    <h2>Thông tin gói vay</h2>
                     <ul class="list-content-info">
                         <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>Chỉ cần Căn cước công dân hoặc Sổ hộ khẩu, duyệt vay nhanh chóng trong 15 phút</li>
                         <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>15 phút có tiền</li>
@@ -98,7 +98,7 @@ get_header();
                         <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>Lãi suất vay hợp lý</li>
                     </ul>
                     <div class="wrapper-button">
-                        <a href="thong-tin-dang-ky.html">
+                        <a href="?mod=page&controller=index&action=reg">
                             <button class="btn-detail">Vay ngay</button>
                         </a>
                     </div>
@@ -130,13 +130,13 @@ get_header();
                 <div class="row text-center">
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/thu_tuc.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/thu_tuc.png" alt=""></a>
                             <p>Thủ tục đơn giản chỉ cần CCCD & sổ hộ khẩu Hà Nội</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/tham_dinh.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/tham_dinh.png" alt=""></a>
                             <p>
                                 Thẩm định nhanh chóng linh hoạt
                             </p>
@@ -144,25 +144,25 @@ get_header();
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose//lai_suat.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose//lai_suat.png" alt=""></a>
                             <p>Lãi suất ưu đãi nhất Hà Nội</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/tu_van.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/tu_van.png" alt=""></a>
                             <p>Đăng ký tư vấn online dễ dàng</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/bao_mat.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/bao_mat.png" alt=""></a>
                             <p>Bảo mật thông tin khách hàng</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/niemtin.png" alt=""></a>
+                            <a href="?mod=page&action=reg"><img src="./public/images/should_choose/niemtin.png" alt=""></a>
                             <p class="m-0 p-0">Trao giá trị
                             <p class="m-0 p-0">Nhận niềm tin</p>
                             </p>
@@ -175,8 +175,8 @@ get_header();
 </div>
 <!-- END SHOULD-CHOOSE  -->
 <div class="container">
-    <video class="w-100 h-auto" controls autoplay>
-        <source src="<?php echo $path_video ?>" type="">
+    <video class="w-100 h-auto border" controls autoplay>
+        <source src="./public/uploads/video/mov_bbb.mp4" type="">
     </video>
 </div>
 <!-- END VIDEO  -->

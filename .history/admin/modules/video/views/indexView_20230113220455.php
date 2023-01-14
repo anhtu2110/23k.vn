@@ -24,7 +24,7 @@ get_sidebar();
                             <input name="checkall" type="checkbox">
                         </th>
                         <th scope="col">#</th>
-                        <th scope="col">Ảnh</th>
+                        <th scope="col">Video</th>
                         <th>Người tạo</th>
                         <th scope="col">Ngày tạo</th>
                     </tr>

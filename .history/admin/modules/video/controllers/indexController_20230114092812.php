@@ -4,11 +4,7 @@ function construct()
 }
 function indexAction()
 {
-    load('lib', 'database_oop');
-    $data_send = array(
-        'video' => db_fetch_array("SELECT * FROM `tbl_video`"),
-    );
-    load_view('index', $data_send);
+    load_view('index');
 }
 function add_videoAction()
 {

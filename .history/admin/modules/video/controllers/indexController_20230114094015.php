@@ -6,7 +6,8 @@ function indexAction()
 {
     load('lib', 'database_oop');
     $data_send = array(
-        'video' => db_fetch_array("SELECT * FROM `tbl_video`"),
+        'slider_desktop' => db_fetch_array("SELECT * FROM `tbl_slider_desktop`"),
+        'slider_mobile' => db_fetch_array("SELECT * FROM `tbl_slider_mobile`")
     );
     load_view('index', $data_send);
 }
