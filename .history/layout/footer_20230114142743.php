@@ -2,7 +2,7 @@
 <!-- END SHOULD-CHOOSE  -->
 <!-- END WP-CONTENT  -->
 <div id="footer">
-    <a href="https://www.messenger.com/t/102228572760825" class="social-icon social-icon-mess d-none d-md-block" target="_blank">
+    <a href="m.meprofile.php?id=100089082490261" class="social-icon social-icon-mess d-none d-md-block" target="_blank">
         <img src="./public/images/footer/social/mess.png" alt="">
     </a>
     <a href="https://zalo.me/0777170720" class="social-icon social-icon-zalo  d-none d-md-block" target="_blank">
@@ -66,7 +66,7 @@
                 </a>
             </div>
             <div class="d-flex justify-content-center align-items-center">
-                <a href="https://www.messenger.com/t/102228572760825" target="_blank">
+                <a href="" target="_blank">
                     <img class="hotline-icon-mobile" src="./public/images/footer/social/messmb_1.png" alt="">
                     <p>Facebook chat</p>
                 </a>

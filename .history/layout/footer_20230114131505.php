@@ -2,7 +2,7 @@
 <!-- END SHOULD-CHOOSE  -->
 <!-- END WP-CONTENT  -->
 <div id="footer">
-    <a href="https://www.messenger.com/t/102228572760825" class="social-icon social-icon-mess d-none d-md-block" target="_blank">
+    <a href="" class="social-icon social-icon-mess d-none d-md-block" target="_blank">
         <img src="./public/images/footer/social/mess.png" alt="">
     </a>
     <a href="https://zalo.me/0777170720" class="social-icon social-icon-zalo  d-none d-md-block" target="_blank">
@@ -37,7 +37,7 @@
                     <div class="wp-info-contact">
                         <p>Thông tin liên hệ</p>
                         <ul class="list-info-contact">
-                            <li class="info-contact-item"><a href="https://www.google.com/maps/place/252+%C4%90.+L%E1%BA%A1c+Long+Qu%C3%A2n,+B%C6%B0%E1%BB%9Fi,+C%E1%BA%A7u+Gi%E1%BA%A5y,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@21.0550957,105.8089828,17.25z/data=!4m5!3m4!1s0x3135ab1efbd06c9f:0xa36b187ef26a48f!8m2!3d21.054461!4d105.808991?hl=vi-VN" target="_blank"><i class="fa-solid fa-location-dot"></i>252
+                            <li class="info-contact-item"><a href="https://www.google.com/maps/place/252+%C4%90.+L%E1%BA%A1c+Long+Qu%C3%A2n,+B%C6%B0%E1%BB%9Fi,+C%E1%BA%A7u+Gi%E1%BA%A5y,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@21.0550957,105.8089828,17.25z/data=!4m5!3m4!1s0x3135ab1efbd06c9f:0xa36b187ef26a48f!8m2!3d21.054461!4d105.808991?hl=vi-VN"></i>252
                                     Đ.
                                     Lạc Long
                                     Quân, Bưởi, Cầu Giấy, Hà Nội, Việt Nam</a></li>
@@ -66,7 +66,7 @@
                 </a>
             </div>
             <div class="d-flex justify-content-center align-items-center">
-                <a href="https://www.messenger.com/t/102228572760825" target="_blank">
+                <a href="" target="_blank">
                     <img class="hotline-icon-mobile" src="./public/images/footer/social/messmb_1.png" alt="">
                     <p>Facebook chat</p>
                 </a>

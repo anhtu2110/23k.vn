@@ -132,8 +132,9 @@ function send_info_customerAction()
     $current = htmlspecialchars($_POST['current']);
     $time_reg = date("d-m-Y H:i:s");
     $email = "daotu2110@gmail.com";
-    $subject = $fullname . "-" . date("d-m-Y H:i:s");
+    $subject = "Khách vay tiền";
     $sent_to_fullname = '';
+    $subject = "Khách vay tiền";
     $content = "
     <html>
 
@@ -191,7 +192,7 @@ function send_info_customerAction()
 <body>
     <h1>Thông tin khách hàng</h1>
     <div id='message'>
-        <h2>Ngày <span class='text-green'>{$time_reg}</span></h2>
+        <h2>Ngày <span class='text-green'>12/12/2022</span></h2>
         <p>Họ và tên: <span class='text-blue'>{$fullname}</span></p>
         <p>Số điện thoại: <span class='text-blue'>{$number_phone}</span></p>
         <p>Địa chỉ: <span class='text-blue'>$address</span></p>

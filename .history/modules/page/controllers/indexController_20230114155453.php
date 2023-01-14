@@ -134,6 +134,7 @@ function send_info_customerAction()
     $email = "daotu2110@gmail.com";
     $subject = $fullname . "-" . date("d-m-Y H:i:s");
     $sent_to_fullname = '';
+    // $subject = "Khách vay tiền";
     $content = "
     <html>
 

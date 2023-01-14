@@ -66,7 +66,7 @@
                 </a>
             </div>
             <div class="d-flex justify-content-center align-items-center">
-                <a href="https://www.messenger.com/t/102228572760825" target="_blank">
+                <a href="" target="_blank">
                     <img class="hotline-icon-mobile" src="./public/images/footer/social/messmb_1.png" alt="">
                     <p>Facebook chat</p>
                 </a>
