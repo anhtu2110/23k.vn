@@ -193,7 +193,7 @@ video {
         border-radius: 6px;
     }
 
-    .content>.row {
+    .content .row {
         margin-left: -15px;
     }
 }

@@ -28,7 +28,7 @@ get_header();
                 foreach ($list_slider_desktop as $key => $value) {
             ?>
                     <div class="carousel-item" data-interval="2500">
-                        <a href="thong-tin-dang-ky.html#wp-info-reg">
+                        <a href="thong-tin-dang-ky.html#wp-form-reg">
                             <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
                         </a>
                     </div>
@@ -65,7 +65,7 @@ get_header();
                 foreach ($list_slider_mobile as $key => $value) {
             ?>
                     <div class="carousel-item" data-interval="2500">
-                        <a href="thong-tin-dang-ky.html#wp-info-reg">
+                        <a href="thong-tin-dang-ky.html#wp-form-reg">
                             <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
                         </a>
                     </div>

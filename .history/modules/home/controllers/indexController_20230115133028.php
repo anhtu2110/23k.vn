@@ -13,7 +13,6 @@ function indexAction()
     $path_video = $db->get("tbl_video", $field = array(), $where = "");
     $data = array(
         'list_slider_desktop' => $list_slider_desktop,
-        'list_slider_mobile' => $list_slider_mobile,
         'img_option_home' => $img_option_home['path_client'],
         'path_video' => $path_video['path_client'],
     );

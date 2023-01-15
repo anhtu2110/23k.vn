@@ -28,7 +28,7 @@ get_header();
                 foreach ($list_slider_desktop as $key => $value) {
             ?>
                     <div class="carousel-item" data-interval="2500">
-                        <a href="thong-tin-dang-ky.html#wp-info-reg">
+                        <a href="thong-tin-dang-ky.html#wp-form-reg">
                             <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
                         </a>
                     </div>
@@ -48,31 +48,32 @@ get_header();
 <section class="home-banner-mobile d-block d-md-none">
     <div id="banner-mobile" class="banner-mobile carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
-            <?php
-            if (!empty($list_slider_mobile)) {
-                $i = 0;
-                foreach ($list_slider_mobile as $key => $value) {
-            ?>
-                    <li data-target="#banner-mobile" data-slide-to="<?php echo $i ?>"></li>
-            <?php
-                }
-            }
-            ?>
+            <li data-target="#banner-mobile" class="active" data-slide-to="0"></li>
+            <li data-target="#banner-mobile" data-slide-to="1"></li>
+            <li data-target="#banner-mobile" data-slide-to="2"></li>
+            <li data-target="#banner-mobile" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
-            <?php
-            if (!empty($list_slider_mobile)) {
-                foreach ($list_slider_mobile as $key => $value) {
-            ?>
-                    <div class="carousel-item" data-interval="2500">
-                        <a href="thong-tin-dang-ky.html#wp-info-reg">
-                            <img class="desktop" src="<?php echo $value['path_client'] ?>" alt="">
-                        </a>
-                    </div>
-            <?php
-                }
-            }
-            ?>
+            <div class="carousel-item active" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/20221118173653929-wc mobile f88 cho vay tiền_mobile.jpg" alt="">
+                </a>
+            </div>
+            <div class="carousel-item" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/vayf88online_mobile.png" alt="">
+                </a>
+            </div>
+            <div class="carousel-item" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/vaybangoto_mobile.jpg" alt="">
+                </a>
+            </div>
+            <div class="carousel-item" data-interval="2500">
+                <a href="">
+                    <img class="desktop" src="./public/images/cantiengoilien_mobile.jpg" alt="">
+                </a>
+            </div>
         </div>
         <a href="#banner-mobile" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>

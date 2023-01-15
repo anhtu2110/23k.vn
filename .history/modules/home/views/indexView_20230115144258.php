@@ -129,13 +129,13 @@ get_header();
                 <div class="row text-center">
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html#wp-info-reg"><img src="./public/images/should_choose/thu_tuc.png" alt=""></a>
+                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/thu_tuc.png" alt=""></a>
                             <p>Thủ tục đơn giản chỉ cần CCCD & sổ hộ khẩu Hà Nội</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html#wp-info-reg"><img src="./public/images/should_choose/tham_dinh.png" alt=""></a>
+                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/tham_dinh.png" alt=""></a>
                             <p>
                                 Thẩm định nhanh chóng linh hoạt
                             </p>
@@ -143,25 +143,25 @@ get_header();
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html#wp-info-reg"><img src="./public/images/should_choose//lai_suat.png" alt=""></a>
+                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose//lai_suat.png" alt=""></a>
                             <p>Lãi suất ưu đãi nhất Hà Nội</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html#wp-info-reg"><img src="./public/images/should_choose/tu_van.png" alt=""></a>
+                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/tu_van.png" alt=""></a>
                             <p>Đăng ký tư vấn online dễ dàng</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html#wp-info-reg"><img src="./public/images/should_choose/bao_mat.png" alt=""></a>
+                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/bao_mat.png" alt=""></a>
                             <p>Bảo mật thông tin khách hàng</p>
                         </li>
                     </div>
                     <div class="col-6 col-md-4 col-xl-2">
                         <li class="reason-item">
-                            <a href="thong-tin-dang-ky.html#wp-info-reg"><img src="./public/images/should_choose/niemtin.png" alt=""></a>
+                            <a href="thong-tin-dang-ky.html"><img src="./public/images/should_choose/niemtin.png" alt=""></a>
                             <p class="m-0 p-0">Trao giá trị
                             <p class="m-0 p-0">Nhận niềm tin</p>
                             </p>
@@ -185,7 +185,7 @@ get_header();
             <h2 class="section-title">Tin tức nổi bật</h2>
             <div class="row">
                 <div class="content-left col-12 col-xl-7">
-                    <a href="thong-tin-dang-ky.html#wp-info-reg" class="content-blog">
+                    <a href="thong-tin-dang-ky.html" class="content-blog">
                         <div>
                             <img src="./public/images/home/featured-news/20220425114147208-lam-phat-la-gi-nguyen-nhan-dan-den-lam-phat-2.jpg" alt="">
                         </div>
@@ -197,7 +197,7 @@ get_header();
                     </a>
                 </div>
                 <div class="content-right col-12 col-xl-5 d-lg-flex flex-lg-column flex-row justify-content-lg-between">
-                    <a href="thong-tin-dang-ky.html#wp-info-reg" class="content-blog-extra d-flex mb-5">
+                    <a href="thong-tin-dang-ky.html" class="content-blog-extra d-flex mb-5">
                         <div class="row no-gutters">
                             <div class="info col-md-7 order-1 order-lg-0">
                                 <h3>Bất động sản cao cấp vẫn hấp dẫn giới siêu giàu</h3>
@@ -207,7 +207,7 @@ get_header();
                             <div class="block-image col-md-5 order-0 order-lg-1"> <img src="./public/images/home/featured-news/anh-3-sunneva-island-diem-den-9851-6946-1672908629.jpg"> </div>
                         </div>
                     </a>
-                    <a href="thong-tin-dang-ky.html#wp-info-reg" class="content-blog-extra d-flex mb-5">
+                    <a href="thong-tin-dang-ky.html" class="content-blog-extra d-flex mb-5">
                         <div class="row no-gutters">
                             <div class="info col-md-7 order-1 order-lg-0">
                                 <h3>VN-Index tăng gần 40 điểm phiên đầu năm</h3>
@@ -217,7 +217,7 @@ get_header();
                             <div class="block-image col-md-5 order-0 order-lg-1"> <img src="./public/images/home/featured-news/QUYN8123-1672736186-4266-1672736217.jpg"> </div>
                         </div>
                     </a>
-                    <a href="thong-tin-dang-ky.html#wp-info-reg" class="content-blog-extra d-flex">
+                    <a href="thong-tin-dang-ky.html" class="content-blog-extra d-flex">
                         <div class="row no-gutters">
                             <div class="info col-md-7 order-1 order-lg-0">
                                 <h3>Tỷ phú Mark Cuban vẫn thích Bitcoin hơn vàng</h3>
