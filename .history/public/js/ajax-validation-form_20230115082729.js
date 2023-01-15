@@ -143,7 +143,6 @@ $(document).ready(function () {
         check_list_exhibit();
         check_number_loan();
         if (check_fullname() && check_number_phone() && check_address() && check_check_address() && check_proof_document() && check_list_exhibit() && check_number_loan()) {
-            $("#modal-reg-success").modal();
             var fullname = $('#fullname').val();
             var number_phone = $("#number_phone").val();
             var address = $("#address").val();
@@ -182,8 +181,12 @@ $(document).ready(function () {
                 data: data,
                 dataType: "text",
                 success: function (result) {
-                    alert(result);
-                    console.log(result);
+                    if (result == '#modal-reg-success') {
+                        $("#modal-reg-success").modal();
+                    } else {
+                        alert(result);
+                        return false;
+                    }
                 }
             });
             return false;

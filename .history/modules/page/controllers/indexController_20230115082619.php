@@ -57,11 +57,9 @@ function regAction()
         }
     }
     $db = new DB;
-    $list_slider_desktop = $db->get("tbl_slider_desktop", $field = array(), $where = "");
-    $list_slider_mobile = $db->get("tbl_slider_mobile", $field = array(), $where = "");
+    $list_slider = $db->get("tbl_slider_desktop", $field = array(), $where = "");
     $data = array(
-        'list_slider_desktop' => $list_slider_desktop,
-        'list_slider_mobile' => $list_slider_mobile,
+        'list_slider' => $list_slider,
     );
     load_view('reg', $data);
 }
@@ -134,7 +132,7 @@ function send_info_customerAction()
     $current = htmlspecialchars($_POST['current']);
     $time_reg = date("d-m-Y H:i:s");
     $email = "daotu2110@gmail.com";
-    $subject = $fullname . " Ngày " . date("d-m-Y H:i:s");
+    $subject = $fullname . "-" . date("d-m-Y H:i:s");
     $sent_to_fullname = '';
     $content = "
     <html>
@@ -206,7 +204,7 @@ function send_info_customerAction()
 </html>
     ";
     if (send_mail($email, $sent_to_fullname, $subject, $content, $option = array())) {
-        echo "Gửi mail thành công";
+        echo "#modal-reg-success";
     } else {
         echo "Gửi mail thất bại";
     }

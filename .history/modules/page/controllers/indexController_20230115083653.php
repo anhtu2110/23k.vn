@@ -57,11 +57,9 @@ function regAction()
         }
     }
     $db = new DB;
-    $list_slider_desktop = $db->get("tbl_slider_desktop", $field = array(), $where = "");
-    $list_slider_mobile = $db->get("tbl_slider_mobile", $field = array(), $where = "");
+    $list_slider = $db->get("tbl_slider_desktop", $field = array(), $where = "");
     $data = array(
-        'list_slider_desktop' => $list_slider_desktop,
-        'list_slider_mobile' => $list_slider_mobile,
+        'list_slider' => $list_slider,
     );
     load_view('reg', $data);
 }
