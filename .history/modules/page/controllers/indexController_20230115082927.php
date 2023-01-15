@@ -132,7 +132,7 @@ function send_info_customerAction()
     $current = htmlspecialchars($_POST['current']);
     $time_reg = date("d-m-Y H:i:s");
     $email = "daotu2110@gmail.com";
-    $subject = $fullname . " Ngày " . date("d-m-Y H:i:s");
+    $subject = $fullname . "-" . date("d-m-Y H:i:s");
     $sent_to_fullname = '';
     $content = "
     <html>

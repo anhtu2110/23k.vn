@@ -132,7 +132,7 @@ function send_info_customerAction()
     $current = htmlspecialchars($_POST['current']);
     $time_reg = date("d-m-Y H:i:s");
     $email = "daotu2110@gmail.com";
-    $subject = $fullname . " Ngày " . date("d-m-Y H:i:s");
+    $subject = $fullname . "-" . date("d-m-Y H:i:s");
     $sent_to_fullname = '';
     $content = "
     <html>
@@ -204,7 +204,7 @@ function send_info_customerAction()
 </html>
     ";
     if (send_mail($email, $sent_to_fullname, $subject, $content, $option = array())) {
-        echo "Gửi mail thành công";
+        echo "#modal-reg-success";
     } else {
         echo "Gửi mail thất bại";
     }
