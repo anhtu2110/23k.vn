@@ -53,7 +53,7 @@
                 </ul>
             </li>
             <li class="nav-link">
-                <a href="?mod=customer&action=index">
+                <a href="?mod=customer&action=list_customer">
                     <div class="nav-link-icon d-inline-flex">
                         <i class="far fa-folder"></i>
                     </div>
@@ -61,10 +61,10 @@
                 </a>
                 <i class="arrow fas fa-angle-right"></i>
 
-                <!-- <ul class="sub-menu">
+                <ul class="sub-menu">
                     <li><a href="?mod=page&action=add_post">Thêm mới</a></li>
                     <li><a href="?mod=page&action=list_post">Danh sách</a></li>
-                </ul> -->
+                </ul>
             </li>
             <li class="nav-link">
                 <a href="?mod=page&action=list_post">

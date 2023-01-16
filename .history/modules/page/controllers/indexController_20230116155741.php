@@ -131,7 +131,7 @@ function send_info_customerAction()
     $proof_document = htmlspecialchars($_POST['proof_document']);
     $number_loan = htmlspecialchars($_POST['number_loan'] . " triệu");
     $list_exhibit = htmlspecialchars($_POST['list_exhibit']);
-    $current = date('d-m-Y H:i:s');
+    $current = date('d-m-Y');
     $time_reg = date("d-m-Y H:i:s");
     $email = "daotu2110@gmail.com";
     $subject = $fullname . " Ngày " . date("d-m-Y H:i:s");

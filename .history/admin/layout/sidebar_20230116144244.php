@@ -53,7 +53,7 @@
                 </ul>
             </li>
             <li class="nav-link">
-                <a href="?mod=customer&action=index">
+                <a href="?mod=customer&action=list_customer">
                     <div class="nav-link-icon d-inline-flex">
                         <i class="far fa-folder"></i>
                     </div>
