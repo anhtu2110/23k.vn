@@ -89,7 +89,7 @@ get_header();
         <div class="form-subscribe-wrap d-flex w-100">
             <div class="row">
                 <div class="form-intro col-md-7 order-1 order-md-0">
-                    <h1 class="my-4 my-lg-0">Thông tin gói vay</h1>
+                    <h1 class="my-3 my-lg-0">Thông tin gói vay</h1>
                     <ul class="list-content-info">
                         <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>Chỉ cần Căn cước công dân hoặc Sổ hộ khẩu, duyệt vay nhanh chóng trong 15 phút</li>
                         <li class="item-option"><span class="icon"><i class="fa-regular fa-circle-check"></i></span>15 phút có tiền</li>
