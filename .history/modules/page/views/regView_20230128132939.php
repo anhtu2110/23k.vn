@@ -338,7 +338,7 @@ get_header();
                         <div class="modal-body">
                             <p class="f-16">Bạn đã đăng ký thành công.</p>
                             <p class="f-16">Vui lòng chờ tổng đài chăm sóc khách hàng liên hệ với bạn.</p>
-                            <p class="f-16">Hoặc bạn có thể liên hệ hotline: <a href="tel:0868300516"><span class="f-20 color-green">086.830.0516</span></a></p>
+                            <p class="f-16">Hoặc bạn có thể liên hệ hotline: <span class="f-20 color-green">086.830.0516</span></p>
                         </div>
                         <!-- END MODAL-BODY  -->
                         <div class="modal-footer">
@@ -370,7 +370,7 @@ get_header();
                         <div class="modal-body">
                             <p class="f-16">Bạn đã đăng ký <span class="font-weight-bold color-red">không</span> thành công.</p>
                             <p class="f-16">Vui lòng điền đầy đủ thông tin đăng ký để được hỗ trợ nhanh nhất.</p>
-                            <p class="f-16">Hoặc bạn có thể liên hệ hotline: <a href="tel:0868300516"><span class="f-20 color-red">086.830.0516</span></a></p>
+                            <p class="f-16">Hoặc bạn có thể liên hệ hotline: <span class="f-20 color-red"><a href="tel:0868300516">086.830.0516</a></span></p>
                         </div>
                         <!-- END MODAL-BODY  -->
                         <div class="modal-footer">

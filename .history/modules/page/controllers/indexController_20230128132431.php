@@ -130,7 +130,7 @@ function send_info_customerAction()
     $list_exhibit = htmlspecialchars($_POST['list_exhibit']);
     $current = date('d-m-Y H:i:s');
     $time_reg = date("d-m-Y H:i:s");
-    $email = "23kcredit@gmail.com";
+    $email = "daotu2110@gmail.com";
     $subject = $fullname . " Ngày " . date("d-m-Y H:i:s");
     $sent_to_fullname = '';
     $content = "
